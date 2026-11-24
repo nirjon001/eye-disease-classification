@@ -78,9 +78,11 @@ Split CSVs store paths relative to `EYE_DATA_ROOT` (for example
    python scripts/06_train_cnn.py --model efficientnet_b0 --epochs 20
    ```
 
-   Weights, history CSVs, and curves are saved after every epoch, so a stopped
-   session does not lose finished work. Download them from the notebook's
-   **Output** tab into your local `outputs/` folder before running Steps 7 and 8.
+   After every epoch the script prints train/val loss, top-1/3/5 accuracy, and
+   macro F1, and saves the same values in `*_history.csv`. Weights, history
+   CSVs, and curves are written every epoch, so a stopped session does not lose
+   finished work. Download them from the notebook's **Output** tab into your
+   local `outputs/` folder before running Steps 7 and 8.
 
 ## Main outputs
 
