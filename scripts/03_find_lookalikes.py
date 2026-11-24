@@ -157,7 +157,7 @@ def build_resnet_embeddings(images):
         ]
     )
 
-    dataset = EyeImageDataset(images, transform=preprocess, project_root=PROJECT_ROOT)
+    dataset = EyeImageDataset(images, transform=preprocess)
     image_loader = DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=0)
 
     embedding_parts = []

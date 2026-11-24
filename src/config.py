@@ -6,18 +6,27 @@ Output: settings imported by the scripts in `scripts/`.
 All paths, sizes, seeds, and training choices are kept here on purpose.
 """
 
+import os
 from pathlib import Path
 
 # Project folders.
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-# This is the ONLY place where the raw dataset folder is named.
-# Pathlib handles the space in "Original Dataset" safely.
-RAW_DATA_DIR = PROJECT_ROOT / "Original Dataset"
+
+# Portable dataset and output roots.
+# On Kaggle, set EYE_DATA_ROOT=/kaggle/input/<dataset-folder> and
+# EYE_OUTPUT_DIR=/kaggle/working. Locally, the defaults below are used.
+# Pathlib handles spaces in folder names safely.
+DATA_ROOT = Path(os.environ.get("EYE_DATA_ROOT", PROJECT_ROOT / "Original Dataset"))
+OUTPUT_DIR = Path(os.environ.get("EYE_OUTPUT_DIR", PROJECT_ROOT / "outputs"))
+
+# Older scripts (Steps 1-3) used this name. Keep it as an alias so they still run.
+RAW_DATA_DIR = DATA_ROOT
+
 DATA_DIR = PROJECT_ROOT / "data"
 SPLITS_DIR = DATA_DIR / "splits"
-FIGURES_DIR = PROJECT_ROOT / "outputs" / "figures"
-MODELS_DIR = PROJECT_ROOT / "outputs" / "models"
-REPORTS_DIR = PROJECT_ROOT / "outputs" / "reports"
+FIGURES_DIR = OUTPUT_DIR / "figures"
+MODELS_DIR = OUTPUT_DIR / "models"
+REPORTS_DIR = OUTPUT_DIR / "reports"
 # Separate folder for the extra cosine-distribution study in Step 3.
 COSINE_DISTRIBUTION_DIR = REPORTS_DIR / "cosine_distribution"
 
@@ -68,6 +77,25 @@ COSINE_BUCKET_EDGES = [
     (0.70, 0.80),
     (0.80, 0.90),
     (0.90, None),
+]
+
+# Extra strict analysis after Step 3 (helper script, not the default yet).
+PIXEL_CHECK_SIZE = 64
+PIXEL_CORRELATION_THRESHOLD = 0.95
+
+# Bands used only for visual threshold selection.
+BAND_SAMPLE_POOL_SIZE = 300
+BANDS_FOR_FIGURE = 6
+COSINE_BANDS = [
+    ("0.90-0.95", 0.90, 0.95),
+    ("0.95-0.98", 0.95, 0.98),
+    (">=0.98", 0.98, 1.000001),
+]
+PHASH_BANDS = [
+    ("0-2", 0, 2),
+    ("3-4", 3, 4),
+    ("5-6", 5, 6),
+    ("7-8", 7, 8),
 ]
 
 # Step 4 settings: 70% train, 15% validation, 15% test.

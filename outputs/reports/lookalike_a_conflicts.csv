@@ -1,0 +1,19 @@
+path_a,path_b,method,cosine_similarity,score_text,class_a,class_b,same_class
+Original Dataset/Diabetic Retinopathy/DR1136.jpg,Original Dataset/Retinal Detachment/Retinal Detachment8.jpg,cosine>=0.98,0.9888198375701904,cos=0.989,Diabetic Retinopathy,Retinal Detachment,False
+Original Dataset/Diabetic Retinopathy/DR81.jpg,Original Dataset/Macular Scar/Macular Scar222.jpg,cosine>=0.98,0.9946057796478271,cos=0.995,Diabetic Retinopathy,Macular Scar,False
+Original Dataset/Glaucoma/Glaucoma1017.jpg,Original Dataset/Myopia/Myopia14.jpg,cosine>=0.98,0.994656503200531,cos=0.995,Glaucoma,Myopia,False
+Original Dataset/Glaucoma/Glaucoma1019.jpg,Original Dataset/Healthy/Healthy1007.jpg,cosine>=0.98,0.9902890920639038,cos=0.990,Glaucoma,Healthy,False
+Original Dataset/Glaucoma/Glaucoma1102.jpg,Original Dataset/Healthy/Healthy41.jpg,cosine>=0.98,0.9953049421310424,cos=0.995,Glaucoma,Healthy,False
+Original Dataset/Glaucoma/Glaucoma156.jpg,Original Dataset/Healthy/Healthy379.jpg,cosine>=0.98,0.9986990690231324,cos=0.999,Glaucoma,Healthy,False
+Original Dataset/Glaucoma/Glaucoma636.jpg,Original Dataset/Macular Scar/Macular Scar335.jpg,cosine>=0.98,0.9964545965194702,cos=0.996,Glaucoma,Macular Scar,False
+Original Dataset/Glaucoma/Glaucoma715.jpg,Original Dataset/Macular Scar/Macular Scar347.jpg,cosine>=0.98,0.9911732077598572,cos=0.991,Glaucoma,Macular Scar,False
+Original Dataset/Glaucoma/Glaucoma738.jpg,Original Dataset/Macular Scar/Macular Scar358.jpg,cosine>=0.98,0.9979772567749025,cos=0.998,Glaucoma,Macular Scar,False
+Original Dataset/Glaucoma/Glaucoma785.jpg,Original Dataset/Healthy/Healthy863.jpg,cosine>=0.98,0.9984458684921264,cos=0.998,Glaucoma,Healthy,False
+Original Dataset/Glaucoma/Glaucoma874.jpg,Original Dataset/Healthy/Healthy932.jpg,cosine>=0.98,0.9985024929046632,cos=0.999,Glaucoma,Healthy,False
+Original Dataset/Glaucoma/Glaucoma898.jpg,Original Dataset/Macular Scar/Macular Scar428.jpg,cosine>=0.98,0.9805675148963928,cos=0.981,Glaucoma,Macular Scar,False
+Original Dataset/Healthy/Healthy528.jpg,Original Dataset/Myopia/Myopia170.jpg,cosine>=0.98,0.9955514669418336,cos=0.996,Healthy,Myopia,False
+Original Dataset/Healthy/Healthy640.jpg,Original Dataset/Myopia/Myopia200.jpg,cosine>=0.98,0.9967285990715028,cos=0.997,Healthy,Myopia,False
+Original Dataset/Healthy/Healthy822.jpg,Original Dataset/Macular Scar/Macular Scar348.jpg,cosine>=0.98,0.9979932904243468,cos=0.998,Healthy,Macular Scar,False
+Original Dataset/Healthy/Healthy907.jpg,Original Dataset/Macular Scar/Macular Scar395.jpg,cosine>=0.98,0.995201587677002,cos=0.995,Healthy,Macular Scar,False
+Original Dataset/Healthy/Healthy910.jpg,Original Dataset/Macular Scar/Macular Scar396.jpg,cosine>=0.98,0.9969220161437988,cos=0.997,Healthy,Macular Scar,False
+Original Dataset/Healthy/Healthy935.jpg,Original Dataset/Macular Scar/Macular Scar422.jpg,cosine>=0.98,0.9975255727767944,cos=0.998,Healthy,Macular Scar,False

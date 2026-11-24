@@ -1,6 +1,7 @@
 # Original dataset images are large and stay local.
 Original Dataset/
 data/raw/
+kaggle_package/
 
 # Python bytecode and caches.
 __pycache__/
@@ -17,3 +18,10 @@ env/
 outputs/models/*.pth
 outputs/models/*.npy
 outputs/models/*.joblib
+
+# Quick-test outputs from helper scripts.
+*_test.csv
+*_test.png
+outputs/models/*_quick_best.pth
+outputs/reports/*_quick_history.csv
+outputs/figures/*_quick_curves.png

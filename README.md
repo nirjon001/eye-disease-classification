@@ -18,7 +18,14 @@ A classification-only learning project on the Mendeley Eye Disease Image Dataset
 | 2 | `scripts/02_find_exact_duplicates.py` | Done — 948 images marked `drop=True` |
 | 2 check | `scripts/02_verify_conflicts.py` | Done — 5 sampled conflicts verified byte-for-byte |
 | 3 | `scripts/03_find_lookalikes.py` | Done — pHash + ResNet18 embeddings |
-| 4–8 | — | Not started yet |
+| 3 choice | `scripts/03_apply_setting_a.py` | Done — cosine >= 0.98 groups; 36 conflict images dropped |
+| 4 | `scripts/04_make_splits.py` | Done — 3,038 train / 656 val / 657 test; all leakage checks PASS |
+| 5 | — | Not started yet |
+| 6 | `scripts/06_train_cnn.py` | Ready — local `--quick` test passed; full runs on Kaggle |
+| 7–8 | — | Not started yet |
+| 9 | `scripts/09_prepare_kaggle_package.py` | Helper — packages only split images for Kaggle |
+
+Current kept images after Step 2 and Step 3 conflict drops: **4,351**.
 
 ## How to run
 
@@ -36,6 +43,44 @@ Install dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
+
+For Kaggle, set the two environment variables before running training:
+
+```bash
+export EYE_DATA_ROOT=/kaggle/input/eye-data/eye_data
+export EYE_OUTPUT_DIR=/kaggle/working/outputs
+```
+
+Split CSVs store paths relative to `EYE_DATA_ROOT` (for example
+`Glaucoma/Glaucoma131.jpg`), so no path editing is needed on Kaggle.
+
+## How to run on Kaggle
+
+1. Verify your phone number in **Settings -> Phone verification** (unlocks GPU and internet).
+2. Open `notebooks/kaggle_train.ipynb` in Kaggle. Use **Add Data** to attach the
+   `eye-data` dataset, choose **GPU T4/P100**, and turn **Internet: On**.
+3. Run the first cells to clone this repo and set the paths. Check the real dataset
+   folder with `!ls /kaggle/input/eye-data` and change `EYE_DATA_ROOT` if needed.
+4. Smoke-test first (no torch install needed):
+
+   ```bash
+   python scripts/06_train_cnn.py --model resnet18 --quick
+   ```
+
+5. Run one model at a time, then use **Save Version -> Save & Run All (Commit)**:
+
+   ```bash
+   python scripts/06_train_cnn.py --model resnet18 --epochs 20
+   python scripts/06_train_cnn.py --model mobilenet_v2 --epochs 20
+   python scripts/06_train_cnn.py --model simple_cnn --epochs 20
+   python scripts/06_train_cnn.py --model alexnet --epochs 20
+   python scripts/06_train_cnn.py --model resnet50 --epochs 20
+   python scripts/06_train_cnn.py --model efficientnet_b0 --epochs 20
+   ```
+
+   Weights, history CSVs, and curves are saved after every epoch, so a stopped
+   session does not lose finished work. Download them from the notebook's
+   **Output** tab into your local `outputs/` folder before running Steps 7 and 8.
 
 ## Main outputs
 

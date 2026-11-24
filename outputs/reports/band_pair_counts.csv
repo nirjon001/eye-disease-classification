@@ -1,0 +1,8 @@
+metric,band,pair_count
+cosine,0.90-0.95,1031659
+cosine,0.95-0.98,41836
+cosine,>=0.98,233
+pHash,0-2,956
+pHash,3-4,5858
+pHash,5-6,22365
+pHash,7-8,56650

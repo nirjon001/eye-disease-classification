@@ -1,0 +1,234 @@
+path_a,path_b,method,cosine_similarity,score_text,class_a,class_b,same_class
+Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR10.jpg,Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR11.jpg,cosine>=0.98,0.99130117893219,cos=0.991,Central Serous Chorioretinopathy [Color Fundus],Central Serous Chorioretinopathy [Color Fundus],True
+Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR2.jpg,Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR5.jpg,cosine>=0.98,0.9857114553451538,cos=0.986,Central Serous Chorioretinopathy [Color Fundus],Central Serous Chorioretinopathy [Color Fundus],True
+Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR4.jpg,Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR5.jpg,cosine>=0.98,0.99818354845047,cos=0.998,Central Serous Chorioretinopathy [Color Fundus],Central Serous Chorioretinopathy [Color Fundus],True
+Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR54.jpg,Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR55.jpg,cosine>=0.98,0.9887586832046508,cos=0.989,Central Serous Chorioretinopathy [Color Fundus],Central Serous Chorioretinopathy [Color Fundus],True
+Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR7.jpg,Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR8.jpg,cosine>=0.98,0.9939042329788208,cos=0.994,Central Serous Chorioretinopathy [Color Fundus],Central Serous Chorioretinopathy [Color Fundus],True
+Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR75.jpg,Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR76.jpg,cosine>=0.98,0.9847605228424072,cos=0.985,Central Serous Chorioretinopathy [Color Fundus],Central Serous Chorioretinopathy [Color Fundus],True
+Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR75.jpg,Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR77.jpg,cosine>=0.98,0.98654305934906,cos=0.987,Central Serous Chorioretinopathy [Color Fundus],Central Serous Chorioretinopathy [Color Fundus],True
+Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR76.jpg,Original Dataset/Central Serous Chorioretinopathy [Color Fundus]/CSCR77.jpg,cosine>=0.98,0.9856522083282472,cos=0.986,Central Serous Chorioretinopathy [Color Fundus],Central Serous Chorioretinopathy [Color Fundus],True
+Original Dataset/Diabetic Retinopathy/DR1.jpg,Original Dataset/Diabetic Retinopathy/DR1519.jpg,cosine>=0.98,0.9974738359451294,cos=0.997,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1003.jpg,Original Dataset/Diabetic Retinopathy/DR1004.jpg,cosine>=0.98,0.9965335130691528,cos=0.997,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1005.jpg,Original Dataset/Diabetic Retinopathy/DR1009.jpg,cosine>=0.98,0.9901360273361206,cos=0.990,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1007.jpg,Original Dataset/Diabetic Retinopathy/DR1008.jpg,cosine>=0.98,0.989150881767273,cos=0.989,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1022.jpg,Original Dataset/Diabetic Retinopathy/DR1025.jpg,cosine>=0.98,0.9937572479248048,cos=0.994,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1023.jpg,Original Dataset/Diabetic Retinopathy/DR1024.jpg,cosine>=0.98,0.995997190475464,cos=0.996,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR104.jpg,Original Dataset/Diabetic Retinopathy/DR105.jpg,cosine>=0.98,0.984277606010437,cos=0.984,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1049.jpg,Original Dataset/Diabetic Retinopathy/DR1050.jpg,cosine>=0.98,0.9956133365631104,cos=0.996,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1098.jpg,Original Dataset/Diabetic Retinopathy/DR1101.jpg,cosine>=0.98,0.9882770776748656,cos=0.988,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1104.jpg,Original Dataset/Diabetic Retinopathy/DR1109.jpg,cosine>=0.98,0.9958029389381408,cos=0.996,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1105.jpg,Original Dataset/Diabetic Retinopathy/DR1108.jpg,cosine>=0.98,0.9816854596138,cos=0.982,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1136.jpg,Original Dataset/Retinal Detachment/Retinal Detachment8.jpg,cosine>=0.98,0.9888198375701904,cos=0.989,Diabetic Retinopathy,Retinal Detachment,False
+Original Dataset/Diabetic Retinopathy/DR1149.jpg,Original Dataset/Diabetic Retinopathy/DR1150.jpg,cosine>=0.98,0.9815883636474608,cos=0.982,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1181.jpg,Original Dataset/Diabetic Retinopathy/DR1240.jpg,cosine>=0.98,0.9867379665374756,cos=0.987,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1221.jpg,Original Dataset/Diabetic Retinopathy/DR1222.jpg,cosine>=0.98,0.9803944230079652,cos=0.980,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1229.jpg,Original Dataset/Diabetic Retinopathy/DR1230.jpg,cosine>=0.98,0.9922866821289062,cos=0.992,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1237.jpg,Original Dataset/Diabetic Retinopathy/DR1270.jpg,cosine>=0.98,0.9826229810714722,cos=0.983,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1240.jpg,Original Dataset/Diabetic Retinopathy/DR1271.jpg,cosine>=0.98,0.983755350112915,cos=0.984,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1278.jpg,Original Dataset/Diabetic Retinopathy/DR1281.jpg,cosine>=0.98,0.9922728538513184,cos=0.992,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1280.jpg,Original Dataset/Diabetic Retinopathy/DR1282.jpg,cosine>=0.98,0.9921756982803344,cos=0.992,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1291.jpg,Original Dataset/Diabetic Retinopathy/DR1299.jpg,cosine>=0.98,0.996329426765442,cos=0.996,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1293.jpg,Original Dataset/Diabetic Retinopathy/DR1294.jpg,cosine>=0.98,0.9893603324890136,cos=0.989,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1339.jpg,Original Dataset/Diabetic Retinopathy/DR1340.jpg,cosine>=0.98,0.9970602989196776,cos=0.997,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1377.jpg,Original Dataset/Diabetic Retinopathy/DR1378.jpg,cosine>=0.98,0.9958180785179138,cos=0.996,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1411.jpg,Original Dataset/Diabetic Retinopathy/DR1416.jpg,cosine>=0.98,0.9967097043991088,cos=0.997,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1412.jpg,Original Dataset/Diabetic Retinopathy/DR1415.jpg,cosine>=0.98,0.9983356595039368,cos=0.998,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1430.jpg,Original Dataset/Diabetic Retinopathy/DR1433.jpg,cosine>=0.98,0.9969397187232972,cos=0.997,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1431.jpg,Original Dataset/Diabetic Retinopathy/DR1432.jpg,cosine>=0.98,0.9970242381095886,cos=0.997,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR1434.jpg,Original Dataset/Diabetic Retinopathy/DR1435.jpg,cosine>=0.98,0.9979142546653748,cos=0.998,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR171.jpg,Original Dataset/Diabetic Retinopathy/DR175.jpg,cosine>=0.98,0.9969096183776855,cos=0.997,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR172.jpg,Original Dataset/Diabetic Retinopathy/DR174.jpg,cosine>=0.98,0.9963526725769044,cos=0.996,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR199.jpg,Original Dataset/Diabetic Retinopathy/DR200.jpg,cosine>=0.98,0.983989119529724,cos=0.984,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR281.jpg,Original Dataset/Diabetic Retinopathy/DR282.jpg,cosine>=0.98,0.9947813749313354,cos=0.995,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR32.jpg,Original Dataset/Diabetic Retinopathy/DR33.jpg,cosine>=0.98,0.9901067018508912,cos=0.990,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR345.jpg,Original Dataset/Diabetic Retinopathy/DR378.jpg,cosine>=0.98,0.9854006767272948,cos=0.985,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR428.jpg,Original Dataset/Diabetic Retinopathy/DR429.jpg,cosine>=0.98,0.9973281621932985,cos=0.997,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR50.jpg,Original Dataset/Diabetic Retinopathy/DR894.jpg,cosine>=0.98,0.9816062450408936,cos=0.982,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR637.jpg,Original Dataset/Diabetic Retinopathy/DR638.jpg,cosine>=0.98,0.9934408664703368,cos=0.993,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR654.jpg,Original Dataset/Diabetic Retinopathy/DR655.jpg,cosine>=0.98,0.9816879630088806,cos=0.982,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR677.jpg,Original Dataset/Diabetic Retinopathy/DR679.jpg,cosine>=0.98,0.9969930648803712,cos=0.997,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR770.jpg,Original Dataset/Diabetic Retinopathy/DR836.jpg,cosine>=0.98,0.986093521118164,cos=0.986,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR770.jpg,Original Dataset/Diabetic Retinopathy/DR837.jpg,cosine>=0.98,0.9834187030792236,cos=0.983,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR787.jpg,Original Dataset/Diabetic Retinopathy/DR792.jpg,cosine>=0.98,0.997800886631012,cos=0.998,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR789.jpg,Original Dataset/Diabetic Retinopathy/DR791.jpg,cosine>=0.98,0.9980795383453368,cos=0.998,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR81.jpg,Original Dataset/Macular Scar/Macular Scar222.jpg,cosine>=0.98,0.9946057796478271,cos=0.995,Diabetic Retinopathy,Macular Scar,False
+Original Dataset/Diabetic Retinopathy/DR82.jpg,Original Dataset/Diabetic Retinopathy/DR83.jpg,cosine>=0.98,0.9968157410621644,cos=0.997,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR836.jpg,Original Dataset/Diabetic Retinopathy/DR837.jpg,cosine>=0.98,0.996716558933258,cos=0.997,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR862.jpg,Original Dataset/Diabetic Retinopathy/DR864.jpg,cosine>=0.98,0.9847766757011414,cos=0.985,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR896.jpg,Original Dataset/Diabetic Retinopathy/DR897.jpg,cosine>=0.98,0.9964380264282228,cos=0.996,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR923.jpg,Original Dataset/Diabetic Retinopathy/DR925.jpg,cosine>=0.98,0.9975214004516602,cos=0.998,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR924.jpg,Original Dataset/Diabetic Retinopathy/DR926.jpg,cosine>=0.98,0.9978843927383424,cos=0.998,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR953.jpg,Original Dataset/Diabetic Retinopathy/DR957.jpg,cosine>=0.98,0.9974349737167358,cos=0.997,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR954.jpg,Original Dataset/Diabetic Retinopathy/DR956.jpg,cosine>=0.98,0.9972265958786012,cos=0.997,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Diabetic Retinopathy/DR955.jpg,Original Dataset/Diabetic Retinopathy/DR958.jpg,cosine>=0.98,0.9984538555145264,cos=0.998,Diabetic Retinopathy,Diabetic Retinopathy,True
+Original Dataset/Disc Edema/Disc Edema1.jpg,Original Dataset/Disc Edema/Disc Edema3.jpg,cosine>=0.98,0.989587426185608,cos=0.990,Disc Edema,Disc Edema,True
+Original Dataset/Disc Edema/Disc Edema61.jpg,Original Dataset/Disc Edema/Disc Edema62.jpg,cosine>=0.98,0.9841506481170654,cos=0.984,Disc Edema,Disc Edema,True
+Original Dataset/Disc Edema/Disc Edema7.jpg,Original Dataset/Disc Edema/Disc Edema8.jpg,cosine>=0.98,0.9931666254997252,cos=0.993,Disc Edema,Disc Edema,True
+Original Dataset/Glaucoma/Glaucoma1007.jpg,Original Dataset/Glaucoma/Glaucoma1008.jpg,cosine>=0.98,0.9914703369140624,cos=0.991,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma101.jpg,Original Dataset/Glaucoma/Glaucoma186.jpg,cosine>=0.98,0.988057255744934,cos=0.988,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1011.jpg,Original Dataset/Glaucoma/Glaucoma1014.jpg,cosine>=0.98,0.992530345916748,cos=0.993,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1012.jpg,Original Dataset/Glaucoma/Glaucoma1015.jpg,cosine>=0.98,0.988566279411316,cos=0.989,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1017.jpg,Original Dataset/Myopia/Myopia14.jpg,cosine>=0.98,0.994656503200531,cos=0.995,Glaucoma,Myopia,False
+Original Dataset/Glaucoma/Glaucoma1019.jpg,Original Dataset/Healthy/Healthy1007.jpg,cosine>=0.98,0.9902890920639038,cos=0.990,Glaucoma,Healthy,False
+Original Dataset/Glaucoma/Glaucoma1020.jpg,Original Dataset/Glaucoma/Glaucoma1026.jpg,cosine>=0.98,0.9942938685417176,cos=0.994,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1022.jpg,Original Dataset/Glaucoma/Glaucoma1024.jpg,cosine>=0.98,0.9870693683624268,cos=0.987,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1022.jpg,Original Dataset/Glaucoma/Glaucoma1028.jpg,cosine>=0.98,0.9870655536651612,cos=0.987,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1024.jpg,Original Dataset/Glaucoma/Glaucoma1028.jpg,cosine>=0.98,0.9954401254653932,cos=0.995,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1032.jpg,Original Dataset/Glaucoma/Glaucoma1035.jpg,cosine>=0.98,0.9963029623031616,cos=0.996,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1033.jpg,Original Dataset/Glaucoma/Glaucoma1034.jpg,cosine>=0.98,0.9983545541763306,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma107.jpg,Original Dataset/Glaucoma/Glaucoma109.jpg,cosine>=0.98,0.9830086827278136,cos=0.983,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1076.jpg,Original Dataset/Glaucoma/Glaucoma1079.jpg,cosine>=0.98,0.9950990676879884,cos=0.995,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1077.jpg,Original Dataset/Glaucoma/Glaucoma1078.jpg,cosine>=0.98,0.9896469712257384,cos=0.990,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1081.jpg,Original Dataset/Glaucoma/Glaucoma1087.jpg,cosine>=0.98,0.9897845983505248,cos=0.990,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1081.jpg,Original Dataset/Glaucoma/Glaucoma1088.jpg,cosine>=0.98,0.987113118171692,cos=0.987,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1087.jpg,Original Dataset/Glaucoma/Glaucoma1088.jpg,cosine>=0.98,0.996891438961029,cos=0.997,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1100.jpg,Original Dataset/Glaucoma/Glaucoma1103.jpg,cosine>=0.98,0.9961661100387572,cos=0.996,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1102.jpg,Original Dataset/Healthy/Healthy41.jpg,cosine>=0.98,0.9953049421310424,cos=0.995,Glaucoma,Healthy,False
+Original Dataset/Glaucoma/Glaucoma1110.jpg,Original Dataset/Glaucoma/Glaucoma1113.jpg,cosine>=0.98,0.9980592727661132,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1111.jpg,Original Dataset/Glaucoma/Glaucoma1112.jpg,cosine>=0.98,0.9948782920837402,cos=0.995,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1115.jpg,Original Dataset/Glaucoma/Glaucoma1116.jpg,cosine>=0.98,0.9955110549926758,cos=0.996,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1117.jpg,Original Dataset/Glaucoma/Glaucoma1118.jpg,cosine>=0.98,0.9956548810005188,cos=0.996,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma1195.jpg,Original Dataset/Glaucoma/Glaucoma1196.jpg,cosine>=0.98,0.9938830137252808,cos=0.994,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma151.jpg,Original Dataset/Glaucoma/Glaucoma153.jpg,cosine>=0.98,0.9980899691581726,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma156.jpg,Original Dataset/Healthy/Healthy379.jpg,cosine>=0.98,0.9986990690231324,cos=0.999,Glaucoma,Healthy,False
+Original Dataset/Glaucoma/Glaucoma253.jpg,Original Dataset/Glaucoma/Glaucoma254.jpg,cosine>=0.98,0.9906113743782043,cos=0.991,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma270.jpg,Original Dataset/Glaucoma/Glaucoma271.jpg,cosine>=0.98,0.9915412664413452,cos=0.992,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma46.jpg,Original Dataset/Glaucoma/Glaucoma52.jpg,cosine>=0.98,0.9819656610488892,cos=0.982,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma47.jpg,Original Dataset/Glaucoma/Glaucoma54.jpg,cosine>=0.98,0.9961490631103516,cos=0.996,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma48.jpg,Original Dataset/Glaucoma/Glaucoma53.jpg,cosine>=0.98,0.980720281600952,cos=0.981,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma49.jpg,Original Dataset/Glaucoma/Glaucoma55.jpg,cosine>=0.98,0.9981878995895386,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma519.jpg,Original Dataset/Glaucoma/Glaucoma521.jpg,cosine>=0.98,0.9976651072502136,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma520.jpg,Original Dataset/Glaucoma/Glaucoma522.jpg,cosine>=0.98,0.9980918169021606,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma611.jpg,Original Dataset/Glaucoma/Glaucoma614.jpg,cosine>=0.98,0.9932312965393066,cos=0.993,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma612.jpg,Original Dataset/Glaucoma/Glaucoma615.jpg,cosine>=0.98,0.9960349798202516,cos=0.996,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma613.jpg,Original Dataset/Glaucoma/Glaucoma616.jpg,cosine>=0.98,0.9967743158340454,cos=0.997,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma634.jpg,Original Dataset/Glaucoma/Glaucoma638.jpg,cosine>=0.98,0.9983726739883424,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma635.jpg,Original Dataset/Glaucoma/Glaucoma637.jpg,cosine>=0.98,0.9959615468978882,cos=0.996,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma636.jpg,Original Dataset/Macular Scar/Macular Scar335.jpg,cosine>=0.98,0.9964545965194702,cos=0.996,Glaucoma,Macular Scar,False
+Original Dataset/Glaucoma/Glaucoma670.jpg,Original Dataset/Glaucoma/Glaucoma672.jpg,cosine>=0.98,0.9967091083526612,cos=0.997,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma671.jpg,Original Dataset/Glaucoma/Glaucoma673.jpg,cosine>=0.98,0.9982231855392456,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma689.jpg,Original Dataset/Glaucoma/Glaucoma692.jpg,cosine>=0.98,0.9966354370117188,cos=0.997,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma690.jpg,Original Dataset/Glaucoma/Glaucoma693.jpg,cosine>=0.98,0.996475100517273,cos=0.996,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma691.jpg,Original Dataset/Glaucoma/Glaucoma694.jpg,cosine>=0.98,0.9981826543807985,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma705.jpg,Original Dataset/Glaucoma/Glaucoma706.jpg,cosine>=0.98,0.9971574544906616,cos=0.997,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma715.jpg,Original Dataset/Macular Scar/Macular Scar347.jpg,cosine>=0.98,0.9911732077598572,cos=0.991,Glaucoma,Macular Scar,False
+Original Dataset/Glaucoma/Glaucoma728.jpg,Original Dataset/Glaucoma/Glaucoma730.jpg,cosine>=0.98,0.99663245677948,cos=0.997,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma738.jpg,Original Dataset/Macular Scar/Macular Scar358.jpg,cosine>=0.98,0.9979772567749025,cos=0.998,Glaucoma,Macular Scar,False
+Original Dataset/Glaucoma/Glaucoma762.jpg,Original Dataset/Glaucoma/Glaucoma763.jpg,cosine>=0.98,0.9957658052444458,cos=0.996,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma767.jpg,Original Dataset/Glaucoma/Glaucoma771.jpg,cosine>=0.98,0.9979435205459596,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma772.jpg,Original Dataset/Glaucoma/Glaucoma774.jpg,cosine>=0.98,0.9981198310852052,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma782.jpg,Original Dataset/Glaucoma/Glaucoma784.jpg,cosine>=0.98,0.9983447790145874,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma785.jpg,Original Dataset/Healthy/Healthy863.jpg,cosine>=0.98,0.9984458684921264,cos=0.998,Glaucoma,Healthy,False
+Original Dataset/Glaucoma/Glaucoma790.jpg,Original Dataset/Glaucoma/Glaucoma794.jpg,cosine>=0.98,0.9990432262420654,cos=0.999,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma806.jpg,Original Dataset/Glaucoma/Glaucoma807.jpg,cosine>=0.98,0.9970821738243104,cos=0.997,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma874.jpg,Original Dataset/Healthy/Healthy932.jpg,cosine>=0.98,0.9985024929046632,cos=0.999,Glaucoma,Healthy,False
+Original Dataset/Glaucoma/Glaucoma875.jpg,Original Dataset/Glaucoma/Glaucoma878.jpg,cosine>=0.98,0.9983507394790648,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma876.jpg,Original Dataset/Glaucoma/Glaucoma879.jpg,cosine>=0.98,0.9987071752548218,cos=0.999,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma898.jpg,Original Dataset/Macular Scar/Macular Scar428.jpg,cosine>=0.98,0.9805675148963928,cos=0.981,Glaucoma,Macular Scar,False
+Original Dataset/Glaucoma/Glaucoma962.jpg,Original Dataset/Glaucoma/Glaucoma963.jpg,cosine>=0.98,0.9972519874572754,cos=0.997,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma980.jpg,Original Dataset/Glaucoma/Glaucoma982.jpg,cosine>=0.98,0.9968608617782592,cos=0.997,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma990.jpg,Original Dataset/Glaucoma/Glaucoma993.jpg,cosine>=0.98,0.9981182813644408,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Glaucoma/Glaucoma991.jpg,Original Dataset/Glaucoma/Glaucoma992.jpg,cosine>=0.98,0.9981274604797364,cos=0.998,Glaucoma,Glaucoma,True
+Original Dataset/Healthy/Healthy1004.jpg,Original Dataset/Healthy/Healthy1005.jpg,cosine>=0.98,0.9931827783584596,cos=0.993,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy1004.jpg,Original Dataset/Healthy/Healthy1012.jpg,cosine>=0.98,0.9805194139480592,cos=0.981,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy1018.jpg,Original Dataset/Healthy/Healthy1020.jpg,cosine>=0.98,0.9936607480049132,cos=0.994,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy111.jpg,Original Dataset/Healthy/Healthy112.jpg,cosine>=0.98,0.9946455955505372,cos=0.995,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy132.jpg,Original Dataset/Healthy/Healthy135.jpg,cosine>=0.98,0.9937517642974854,cos=0.994,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy133.jpg,Original Dataset/Healthy/Healthy137.jpg,cosine>=0.98,0.9950092434883118,cos=0.995,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy134.jpg,Original Dataset/Healthy/Healthy136.jpg,cosine>=0.98,0.9939743280410768,cos=0.994,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy237.jpg,Original Dataset/Healthy/Healthy240.jpg,cosine>=0.98,0.9978731274604796,cos=0.998,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy249.jpg,Original Dataset/Healthy/Healthy322.jpg,cosine>=0.98,0.981904149055481,cos=0.982,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy366.jpg,Original Dataset/Healthy/Healthy369.jpg,cosine>=0.98,0.9982624053955078,cos=0.998,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy367.jpg,Original Dataset/Healthy/Healthy368.jpg,cosine>=0.98,0.9964067935943604,cos=0.996,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy375.jpg,Original Dataset/Healthy/Healthy377.jpg,cosine>=0.98,0.995064616203308,cos=0.995,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy528.jpg,Original Dataset/Myopia/Myopia170.jpg,cosine>=0.98,0.9955514669418336,cos=0.996,Healthy,Myopia,False
+Original Dataset/Healthy/Healthy640.jpg,Original Dataset/Myopia/Myopia200.jpg,cosine>=0.98,0.9967285990715028,cos=0.997,Healthy,Myopia,False
+Original Dataset/Healthy/Healthy671.jpg,Original Dataset/Healthy/Healthy672.jpg,cosine>=0.98,0.987615406513214,cos=0.988,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy675.jpg,Original Dataset/Healthy/Healthy676.jpg,cosine>=0.98,0.9890578985214232,cos=0.989,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy772.jpg,Original Dataset/Healthy/Healthy773.jpg,cosine>=0.98,0.9872044920921326,cos=0.987,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy822.jpg,Original Dataset/Macular Scar/Macular Scar348.jpg,cosine>=0.98,0.9979932904243468,cos=0.998,Healthy,Macular Scar,False
+Original Dataset/Healthy/Healthy873.jpg,Original Dataset/Healthy/Healthy874.jpg,cosine>=0.98,0.997230350971222,cos=0.997,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy876.jpg,Original Dataset/Healthy/Healthy878.jpg,cosine>=0.98,0.9958415031433104,cos=0.996,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy88.jpg,Original Dataset/Healthy/Healthy89.jpg,cosine>=0.98,0.9953510761260986,cos=0.995,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy885.jpg,Original Dataset/Healthy/Healthy888.jpg,cosine>=0.98,0.9971027374267578,cos=0.997,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy887.jpg,Original Dataset/Healthy/Healthy889.jpg,cosine>=0.98,0.9970964789390564,cos=0.997,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy890.jpg,Original Dataset/Healthy/Healthy893.jpg,cosine>=0.98,0.9954156875610352,cos=0.995,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy892.jpg,Original Dataset/Healthy/Healthy895.jpg,cosine>=0.98,0.9978878498077391,cos=0.998,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy898.jpg,Original Dataset/Healthy/Healthy901.jpg,cosine>=0.98,0.9944456219673156,cos=0.994,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy899.jpg,Original Dataset/Healthy/Healthy900.jpg,cosine>=0.98,0.9940537810325624,cos=0.994,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy907.jpg,Original Dataset/Macular Scar/Macular Scar395.jpg,cosine>=0.98,0.995201587677002,cos=0.995,Healthy,Macular Scar,False
+Original Dataset/Healthy/Healthy910.jpg,Original Dataset/Macular Scar/Macular Scar396.jpg,cosine>=0.98,0.9969220161437988,cos=0.997,Healthy,Macular Scar,False
+Original Dataset/Healthy/Healthy920.jpg,Original Dataset/Healthy/Healthy922.jpg,cosine>=0.98,0.9986505508422852,cos=0.999,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy924.jpg,Original Dataset/Healthy/Healthy925.jpg,cosine>=0.98,0.9914032220840454,cos=0.991,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy933.jpg,Original Dataset/Healthy/Healthy936.jpg,cosine>=0.98,0.99640953540802,cos=0.996,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy934.jpg,Original Dataset/Healthy/Healthy937.jpg,cosine>=0.98,0.9963566660881042,cos=0.996,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy935.jpg,Original Dataset/Macular Scar/Macular Scar422.jpg,cosine>=0.98,0.9975255727767944,cos=0.998,Healthy,Macular Scar,False
+Original Dataset/Healthy/Healthy943.jpg,Original Dataset/Healthy/Healthy944.jpg,cosine>=0.98,0.9964807033538818,cos=0.996,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy946.jpg,Original Dataset/Healthy/Healthy947.jpg,cosine>=0.98,0.9969216585159302,cos=0.997,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy964.jpg,Original Dataset/Healthy/Healthy967.jpg,cosine>=0.98,0.9966433048248292,cos=0.997,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy966.jpg,Original Dataset/Healthy/Healthy968.jpg,cosine>=0.98,0.997769832611084,cos=0.998,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy970.jpg,Original Dataset/Healthy/Healthy971.jpg,cosine>=0.98,0.9960446357727052,cos=0.996,Healthy,Healthy,True
+Original Dataset/Healthy/Healthy987.jpg,Original Dataset/Healthy/Healthy990.jpg,cosine>=0.98,0.9966320991516112,cos=0.997,Healthy,Healthy,True
+Original Dataset/Macular Scar/Macular Scar105.jpg,Original Dataset/Macular Scar/Macular Scar107.jpg,cosine>=0.98,0.999688684940338,cos=1.000,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar106.jpg,Original Dataset/Macular Scar/Macular Scar108.jpg,cosine>=0.98,0.9997252821922302,cos=1.000,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar11.jpg,Original Dataset/Macular Scar/Macular Scar9.jpg,cosine>=0.98,0.9937536716461182,cos=0.994,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar12.jpg,Original Dataset/Macular Scar/Macular Scar14.jpg,cosine>=0.98,0.99093759059906,cos=0.991,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar140.jpg,Original Dataset/Macular Scar/Macular Scar95.jpg,cosine>=0.98,0.9961051940917968,cos=0.996,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar153.jpg,Original Dataset/Macular Scar/Macular Scar157.jpg,cosine>=0.98,0.9953194856643676,cos=0.995,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar155.jpg,Original Dataset/Macular Scar/Macular Scar156.jpg,cosine>=0.98,0.9868305325508118,cos=0.987,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar167.jpg,Original Dataset/Macular Scar/Macular Scar169.jpg,cosine>=0.98,0.9839905500411988,cos=0.984,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar191.jpg,Original Dataset/Macular Scar/Macular Scar192.jpg,cosine>=0.98,0.9878393411636353,cos=0.988,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar2.jpg,Original Dataset/Macular Scar/Macular Scar6.jpg,cosine>=0.98,0.9835180640220642,cos=0.984,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar290.jpg,Original Dataset/Macular Scar/Macular Scar291.jpg,cosine>=0.98,0.9809297323226928,cos=0.981,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar36.jpg,Original Dataset/Macular Scar/Macular Scar406.jpg,cosine>=0.98,0.9934759140014648,cos=0.993,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar379.jpg,Original Dataset/Macular Scar/Macular Scar381.jpg,cosine>=0.98,0.99719899892807,cos=0.997,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar380.jpg,Original Dataset/Macular Scar/Macular Scar382.jpg,cosine>=0.98,0.997268557548523,cos=0.997,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar391.jpg,Original Dataset/Macular Scar/Macular Scar392.jpg,cosine>=0.98,0.9980342388153076,cos=0.998,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar437.jpg,Original Dataset/Macular Scar/Macular Scar439.jpg,cosine>=0.98,0.995485782623291,cos=0.995,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar438.jpg,Original Dataset/Macular Scar/Macular Scar440.jpg,cosine>=0.98,0.9959797859191896,cos=0.996,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar78.jpg,Original Dataset/Macular Scar/Macular Scar80.jpg,cosine>=0.98,0.9891610145568848,cos=0.989,Macular Scar,Macular Scar,True
+Original Dataset/Macular Scar/Macular Scar79.jpg,Original Dataset/Macular Scar/Macular Scar81.jpg,cosine>=0.98,0.987795352935791,cos=0.988,Macular Scar,Macular Scar,True
+Original Dataset/Myopia/Myopia107.jpg,Original Dataset/Myopia/Myopia111.jpg,cosine>=0.98,0.9958137273788452,cos=0.996,Myopia,Myopia,True
+Original Dataset/Myopia/Myopia11.jpg,Original Dataset/Myopia/Myopia13.jpg,cosine>=0.98,0.9943981170654296,cos=0.994,Myopia,Myopia,True
+Original Dataset/Myopia/Myopia110.jpg,Original Dataset/Myopia/Myopia122.jpg,cosine>=0.98,0.9815871715545654,cos=0.982,Myopia,Myopia,True
+Original Dataset/Myopia/Myopia12.jpg,Original Dataset/Myopia/Myopia9.jpg,cosine>=0.98,0.9937270283699036,cos=0.994,Myopia,Myopia,True
+Original Dataset/Myopia/Myopia18.jpg,Original Dataset/Myopia/Myopia19.jpg,cosine>=0.98,0.992983341217041,cos=0.993,Myopia,Myopia,True
+Original Dataset/Myopia/Myopia205.jpg,Original Dataset/Myopia/Myopia206.jpg,cosine>=0.98,0.9946757555007936,cos=0.995,Myopia,Myopia,True
+Original Dataset/Myopia/Myopia258.jpg,Original Dataset/Myopia/Myopia260.jpg,cosine>=0.98,0.9946562051773072,cos=0.995,Myopia,Myopia,True
+Original Dataset/Myopia/Myopia259.jpg,Original Dataset/Myopia/Myopia261.jpg,cosine>=0.98,0.997898817062378,cos=0.998,Myopia,Myopia,True
+Original Dataset/Myopia/Myopia385.jpg,Original Dataset/Myopia/Myopia386.jpg,cosine>=0.98,0.99774169921875,cos=0.998,Myopia,Myopia,True
+Original Dataset/Myopia/Myopia387.jpg,Original Dataset/Myopia/Myopia392.jpg,cosine>=0.98,0.9959477186203004,cos=0.996,Myopia,Myopia,True
+Original Dataset/Myopia/Myopia389.jpg,Original Dataset/Myopia/Myopia391.jpg,cosine>=0.98,0.9945924282073976,cos=0.995,Myopia,Myopia,True
+Original Dataset/Myopia/Myopia401.jpg,Original Dataset/Myopia/Myopia404.jpg,cosine>=0.98,0.997667908668518,cos=0.998,Myopia,Myopia,True
+Original Dataset/Myopia/Myopia413.jpg,Original Dataset/Myopia/Myopia415.jpg,cosine>=0.98,0.9960033893585204,cos=0.996,Myopia,Myopia,True
+Original Dataset/Myopia/Myopia414.jpg,Original Dataset/Myopia/Myopia416.jpg,cosine>=0.98,0.9972344636917114,cos=0.997,Myopia,Myopia,True
+Original Dataset/Myopia/Myopia448.jpg,Original Dataset/Myopia/Myopia449.jpg,cosine>=0.98,0.9976214170455932,cos=0.998,Myopia,Myopia,True
+Original Dataset/Retinal Detachment/Retinal Detachment100.jpg,Original Dataset/Retinal Detachment/Retinal Detachment103.jpg,cosine>=0.98,0.9861438274383544,cos=0.986,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment100.jpg,Original Dataset/Retinal Detachment/Retinal Detachment116.jpg,cosine>=0.98,0.9827162027359008,cos=0.983,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment102.jpg,Original Dataset/Retinal Detachment/Retinal Detachment115.jpg,cosine>=0.98,0.9826302528381348,cos=0.983,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment103.jpg,Original Dataset/Retinal Detachment/Retinal Detachment104.jpg,cosine>=0.98,0.9801321029663086,cos=0.980,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment103.jpg,Original Dataset/Retinal Detachment/Retinal Detachment105.jpg,cosine>=0.98,0.9934637546539308,cos=0.993,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment103.jpg,Original Dataset/Retinal Detachment/Retinal Detachment106.jpg,cosine>=0.98,0.9839823246002196,cos=0.984,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment103.jpg,Original Dataset/Retinal Detachment/Retinal Detachment119.jpg,cosine>=0.98,0.980758786201477,cos=0.981,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment104.jpg,Original Dataset/Retinal Detachment/Retinal Detachment106.jpg,cosine>=0.98,0.9932451248168944,cos=0.993,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment104.jpg,Original Dataset/Retinal Detachment/Retinal Detachment119.jpg,cosine>=0.98,0.9893393516540528,cos=0.989,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment104.jpg,Original Dataset/Retinal Detachment/Retinal Detachment120.jpg,cosine>=0.98,0.9845467805862428,cos=0.985,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment104.jpg,Original Dataset/Retinal Detachment/Retinal Detachment94.jpg,cosine>=0.98,0.9819796681404114,cos=0.982,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment105.jpg,Original Dataset/Retinal Detachment/Retinal Detachment106.jpg,cosine>=0.98,0.9827884435653688,cos=0.983,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment106.jpg,Original Dataset/Retinal Detachment/Retinal Detachment119.jpg,cosine>=0.98,0.9894511699676514,cos=0.989,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment106.jpg,Original Dataset/Retinal Detachment/Retinal Detachment94.jpg,cosine>=0.98,0.9806820750236512,cos=0.981,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment107.jpg,Original Dataset/Retinal Detachment/Retinal Detachment109.jpg,cosine>=0.98,0.9807944297790528,cos=0.981,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment108.jpg,Original Dataset/Retinal Detachment/Retinal Detachment94.jpg,cosine>=0.98,0.9856115579605104,cos=0.986,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment113.jpg,Original Dataset/Retinal Detachment/Retinal Detachment118.jpg,cosine>=0.98,0.9848121404647828,cos=0.985,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment115.jpg,Original Dataset/Retinal Detachment/Retinal Detachment117.jpg,cosine>=0.98,0.9807477593421936,cos=0.981,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment116.jpg,Original Dataset/Retinal Detachment/Retinal Detachment117.jpg,cosine>=0.98,0.9875507354736328,cos=0.988,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment119.jpg,Original Dataset/Retinal Detachment/Retinal Detachment120.jpg,cosine>=0.98,0.9826785326004028,cos=0.983,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment120.jpg,Original Dataset/Retinal Detachment/Retinal Detachment121.jpg,cosine>=0.98,0.9850524067878724,cos=0.985,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment31.jpg,Original Dataset/Retinal Detachment/Retinal Detachment32.jpg,cosine>=0.98,0.98037987947464,cos=0.980,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment4.jpg,Original Dataset/Retinal Detachment/Retinal Detachment6.jpg,cosine>=0.98,0.9919913411140442,cos=0.992,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment56.jpg,Original Dataset/Retinal Detachment/Retinal Detachment59.jpg,cosine>=0.98,0.9801682233810424,cos=0.980,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment81.jpg,Original Dataset/Retinal Detachment/Retinal Detachment85.jpg,cosine>=0.98,0.9857118129730223,cos=0.986,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinal Detachment/Retinal Detachment84.jpg,Original Dataset/Retinal Detachment/Retinal Detachment85.jpg,cosine>=0.98,0.9828470349311828,cos=0.983,Retinal Detachment,Retinal Detachment,True
+Original Dataset/Retinitis Pigmentosa/Retinitis Pigmentosa1.jpg,Original Dataset/Retinitis Pigmentosa/Retinitis Pigmentosa3.jpg,cosine>=0.98,0.9949530363082886,cos=0.995,Retinitis Pigmentosa,Retinitis Pigmentosa,True
+Original Dataset/Retinitis Pigmentosa/Retinitis Pigmentosa4.jpg,Original Dataset/Retinitis Pigmentosa/Retinitis Pigmentosa6.jpg,cosine>=0.98,0.993061661720276,cos=0.993,Retinitis Pigmentosa,Retinitis Pigmentosa,True
+Original Dataset/Retinitis Pigmentosa/Retinitis Pigmentosa5.jpg,Original Dataset/Retinitis Pigmentosa/Retinitis Pigmentosa7.jpg,cosine>=0.98,0.9931828379631042,cos=0.993,Retinitis Pigmentosa,Retinitis Pigmentosa,True

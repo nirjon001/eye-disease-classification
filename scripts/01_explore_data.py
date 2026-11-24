@@ -1,7 +1,7 @@
 """
 Step 1 of 8: explore the eye disease images.
 
-Input:  images in `config.RAW_DATA_DIR` (one folder per class).
+Input:  images in `config.DATA_ROOT` (one folder per class).
 Output: `data/splits/all_images.csv` (originals only),
         `outputs/reports/image_inventory_all.csv`,
         `outputs/reports/corrupted_files.csv`,

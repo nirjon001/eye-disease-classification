@@ -1,0 +1,657 @@
+path,label,group_id
+Central Serous Chorioretinopathy [Color Fundus]/CSCR12.jpg,0,group_00004
+Central Serous Chorioretinopathy [Color Fundus]/CSCR25.jpg,0,group_00016
+Central Serous Chorioretinopathy [Color Fundus]/CSCR27.jpg,0,group_00018
+Central Serous Chorioretinopathy [Color Fundus]/CSCR29.jpg,0,group_00020
+Central Serous Chorioretinopathy [Color Fundus]/CSCR33.jpg,0,group_00024
+Central Serous Chorioretinopathy [Color Fundus]/CSCR40.jpg,0,group_00029
+Central Serous Chorioretinopathy [Color Fundus]/CSCR49.jpg,0,group_00036
+Diabetic Retinopathy/DR1003.jpg,1,group_00080
+Diabetic Retinopathy/DR1004.jpg,1,group_00080
+Diabetic Retinopathy/DR1005.jpg,1,group_00081
+Diabetic Retinopathy/DR1009.jpg,1,group_00081
+Diabetic Retinopathy/DR1011.jpg,1,group_00086
+Diabetic Retinopathy/DR1015.jpg,1,group_00088
+Diabetic Retinopathy/DR1026.jpg,1,group_00098
+Diabetic Retinopathy/DR1037.jpg,1,group_00110
+Diabetic Retinopathy/DR104.jpg,1,group_00113
+Diabetic Retinopathy/DR1044.jpg,1,group_00118
+Diabetic Retinopathy/DR1046.jpg,1,group_00120
+Diabetic Retinopathy/DR105.jpg,1,group_00113
+Diabetic Retinopathy/DR1071.jpg,1,group_00146
+Diabetic Retinopathy/DR1086.jpg,1,group_00162
+Diabetic Retinopathy/DR1087.jpg,1,group_00163
+Diabetic Retinopathy/DR1092.jpg,1,group_00169
+Diabetic Retinopathy/DR1095.jpg,1,group_00172
+Diabetic Retinopathy/DR1097.jpg,1,group_00174
+Diabetic Retinopathy/DR110.jpg,1,group_00178
+Diabetic Retinopathy/DR1103.jpg,1,group_00181
+Diabetic Retinopathy/DR1104.jpg,1,group_00182
+Diabetic Retinopathy/DR1109.jpg,1,group_00182
+Diabetic Retinopathy/DR112.jpg,1,group_00196
+Diabetic Retinopathy/DR1126.jpg,1,group_00203
+Diabetic Retinopathy/DR113.jpg,1,group_00207
+Diabetic Retinopathy/DR1138.jpg,1,group_00214
+Diabetic Retinopathy/DR1147.jpg,1,group_00224
+Diabetic Retinopathy/DR1148.jpg,1,group_00225
+Diabetic Retinopathy/DR1154.jpg,1,group_00230
+Diabetic Retinopathy/DR1165.jpg,1,group_00239
+Diabetic Retinopathy/DR1166.jpg,1,group_00240
+Diabetic Retinopathy/DR1184.jpg,1,group_00260
+Diabetic Retinopathy/DR1185.jpg,1,group_00261
+Diabetic Retinopathy/DR1191.jpg,1,group_00268
+Diabetic Retinopathy/DR1192.jpg,1,group_00269
+Diabetic Retinopathy/DR1198.jpg,1,group_00275
+Diabetic Retinopathy/DR1204.jpg,1,group_00283
+Diabetic Retinopathy/DR122.jpg,1,group_00298
+Diabetic Retinopathy/DR1224.jpg,1,group_00302
+Diabetic Retinopathy/DR1231.jpg,1,group_00309
+Diabetic Retinopathy/DR1252.jpg,1,group_00330
+Diabetic Retinopathy/DR1254.jpg,1,group_00332
+Diabetic Retinopathy/DR1268.jpg,1,group_00347
+Diabetic Retinopathy/DR1269.jpg,1,group_00348
+Diabetic Retinopathy/DR1279.jpg,1,group_00356
+Diabetic Retinopathy/DR1283.jpg,1,group_00359
+Diabetic Retinopathy/DR1284.jpg,1,group_00360
+Diabetic Retinopathy/DR1286.jpg,1,group_00362
+Diabetic Retinopathy/DR1289.jpg,1,group_00365
+Diabetic Retinopathy/DR1292.jpg,1,group_00369
+Diabetic Retinopathy/DR1296.jpg,1,group_00372
+Diabetic Retinopathy/DR1300.jpg,1,group_00377
+Diabetic Retinopathy/DR1303.jpg,1,group_00380
+Diabetic Retinopathy/DR1322.jpg,1,group_00401
+Diabetic Retinopathy/DR1324.jpg,1,group_00403
+Diabetic Retinopathy/DR1327.jpg,1,group_00406
+Diabetic Retinopathy/DR1328.jpg,1,group_00407
+Diabetic Retinopathy/DR133.jpg,1,group_00409
+Diabetic Retinopathy/DR1331.jpg,1,group_00411
+Diabetic Retinopathy/DR1335.jpg,1,group_00415
+Diabetic Retinopathy/DR1346.jpg,1,group_00426
+Diabetic Retinopathy/DR136.jpg,1,group_00441
+Diabetic Retinopathy/DR1365.jpg,1,group_00447
+Diabetic Retinopathy/DR137.jpg,1,group_00452
+Diabetic Retinopathy/DR1392.jpg,1,group_00473
+Diabetic Retinopathy/DR1394.jpg,1,group_00475
+Diabetic Retinopathy/DR1395.jpg,1,group_00476
+Diabetic Retinopathy/DR1400.jpg,1,group_00483
+Diabetic Retinopathy/DR1405.jpg,1,group_00488
+Diabetic Retinopathy/DR1418.jpg,1,group_00500
+Diabetic Retinopathy/DR1434.jpg,1,group_00516
+Diabetic Retinopathy/DR1435.jpg,1,group_00516
+Diabetic Retinopathy/DR1452.jpg,1,group_00532
+Diabetic Retinopathy/DR1456.jpg,1,group_00536
+Diabetic Retinopathy/DR1466.jpg,1,group_00547
+Diabetic Retinopathy/DR1473.jpg,1,group_00555
+Diabetic Retinopathy/DR1475.jpg,1,group_00557
+Diabetic Retinopathy/DR1476.jpg,1,group_00558
+Diabetic Retinopathy/DR1483.jpg,1,group_00566
+Diabetic Retinopathy/DR1489.jpg,1,group_00572
+Diabetic Retinopathy/DR149.jpg,1,group_00573
+Diabetic Retinopathy/DR1492.jpg,1,group_00576
+Diabetic Retinopathy/DR1496.jpg,1,group_00580
+Diabetic Retinopathy/DR1501.jpg,1,group_00587
+Diabetic Retinopathy/DR1505.jpg,1,group_00591
+Diabetic Retinopathy/DR1506.jpg,1,group_00592
+Diabetic Retinopathy/DR157.jpg,1,group_00612
+Diabetic Retinopathy/DR160.jpg,1,group_00615
+Diabetic Retinopathy/DR173.jpg,1,group_00627
+Diabetic Retinopathy/DR177.jpg,1,group_00629
+Diabetic Retinopathy/DR178.jpg,1,group_00630
+Diabetic Retinopathy/DR179.jpg,1,group_00631
+Diabetic Retinopathy/DR189.jpg,1,group_00641
+Diabetic Retinopathy/DR191.jpg,1,group_00643
+Diabetic Retinopathy/DR194.jpg,1,group_00646
+Diabetic Retinopathy/DR197.jpg,1,group_00649
+Diabetic Retinopathy/DR198.jpg,1,group_00650
+Diabetic Retinopathy/DR2.jpg,1,group_00652
+Diabetic Retinopathy/DR202.jpg,1,group_00655
+Diabetic Retinopathy/DR219.jpg,1,group_00671
+Diabetic Retinopathy/DR221.jpg,1,group_00674
+Diabetic Retinopathy/DR233.jpg,1,group_00687
+Diabetic Retinopathy/DR246.jpg,1,group_00700
+Diabetic Retinopathy/DR247.jpg,1,group_00701
+Diabetic Retinopathy/DR250.jpg,1,group_00705
+Diabetic Retinopathy/DR253.jpg,1,group_00708
+Diabetic Retinopathy/DR258.jpg,1,group_00713
+Diabetic Retinopathy/DR264.jpg,1,group_00720
+Diabetic Retinopathy/DR265.jpg,1,group_00721
+Diabetic Retinopathy/DR295.jpg,1,group_00753
+Diabetic Retinopathy/DR302.jpg,1,group_00762
+Diabetic Retinopathy/DR304.jpg,1,group_00764
+Diabetic Retinopathy/DR309.jpg,1,group_00769
+Diabetic Retinopathy/DR31.jpg,1,group_00770
+Diabetic Retinopathy/DR315.jpg,1,group_00776
+Diabetic Retinopathy/DR336.jpg,1,group_00798
+Diabetic Retinopathy/DR339.jpg,1,group_00801
+Diabetic Retinopathy/DR342.jpg,1,group_00805
+Diabetic Retinopathy/DR355.jpg,1,group_00819
+Diabetic Retinopathy/DR390.jpg,1,group_00855
+Diabetic Retinopathy/DR391.jpg,1,group_00856
+Diabetic Retinopathy/DR396.jpg,1,group_00861
+Diabetic Retinopathy/DR406.jpg,1,group_00873
+Diabetic Retinopathy/DR411.jpg,1,group_00879
+Diabetic Retinopathy/DR416.jpg,1,group_00884
+Diabetic Retinopathy/DR418.jpg,1,group_00886
+Diabetic Retinopathy/DR424.jpg,1,group_00893
+Diabetic Retinopathy/DR43.jpg,1,group_00898
+Diabetic Retinopathy/DR435.jpg,1,group_00904
+Diabetic Retinopathy/DR448.jpg,1,group_00915
+Diabetic Retinopathy/DR451.jpg,1,group_00919
+Diabetic Retinopathy/DR455.jpg,1,group_00923
+Diabetic Retinopathy/DR456.jpg,1,group_00924
+Diabetic Retinopathy/DR458.jpg,1,group_00926
+Diabetic Retinopathy/DR469.jpg,1,group_00938
+Diabetic Retinopathy/DR47.jpg,1,group_00939
+Diabetic Retinopathy/DR479.jpg,1,group_00946
+Diabetic Retinopathy/DR481.jpg,1,group_00949
+Diabetic Retinopathy/DR489.jpg,1,group_00957
+Diabetic Retinopathy/DR491.jpg,1,group_00960
+Diabetic Retinopathy/DR498.jpg,1,group_00967
+Diabetic Retinopathy/DR500.jpg,1,group_00971
+Diabetic Retinopathy/DR503.jpg,1,group_00974
+Diabetic Retinopathy/DR504.jpg,1,group_00975
+Diabetic Retinopathy/DR510.jpg,1,group_00982
+Diabetic Retinopathy/DR537.jpg,1,group_00999
+Diabetic Retinopathy/DR542.jpg,1,group_01005
+Diabetic Retinopathy/DR546.jpg,1,group_01009
+Diabetic Retinopathy/DR554.jpg,1,group_01018
+Diabetic Retinopathy/DR574.jpg,1,group_01036
+Diabetic Retinopathy/DR577.jpg,1,group_01039
+Diabetic Retinopathy/DR583.jpg,1,group_01046
+Diabetic Retinopathy/DR586.jpg,1,group_01049
+Diabetic Retinopathy/DR589.jpg,1,group_01052
+Diabetic Retinopathy/DR592.jpg,1,group_01056
+Diabetic Retinopathy/DR616.jpg,1,group_01082
+Diabetic Retinopathy/DR617.jpg,1,group_01083
+Diabetic Retinopathy/DR621.jpg,1,group_01088
+Diabetic Retinopathy/DR630.jpg,1,group_01098
+Diabetic Retinopathy/DR632.jpg,1,group_01100
+Diabetic Retinopathy/DR634.jpg,1,group_01102
+Diabetic Retinopathy/DR636.jpg,1,group_01104
+Diabetic Retinopathy/DR641.jpg,1,group_01109
+Diabetic Retinopathy/DR645.jpg,1,group_01113
+Diabetic Retinopathy/DR660.jpg,1,group_01129
+Diabetic Retinopathy/DR663.jpg,1,group_01132
+Diabetic Retinopathy/DR664.jpg,1,group_01133
+Diabetic Retinopathy/DR667.jpg,1,group_01136
+Diabetic Retinopathy/DR669.jpg,1,group_01138
+Diabetic Retinopathy/DR68.jpg,1,group_01147
+Diabetic Retinopathy/DR682.jpg,1,group_01150
+Diabetic Retinopathy/DR696.jpg,1,group_01165
+Diabetic Retinopathy/DR705.jpg,1,group_01174
+Diabetic Retinopathy/DR713.jpg,1,group_01183
+Diabetic Retinopathy/DR714.jpg,1,group_01184
+Diabetic Retinopathy/DR716.jpg,1,group_01186
+Diabetic Retinopathy/DR728.jpg,1,group_01197
+Diabetic Retinopathy/DR74.jpg,1,group_01210
+Diabetic Retinopathy/DR749.jpg,1,group_01220
+Diabetic Retinopathy/DR753.jpg,1,group_01225
+Diabetic Retinopathy/DR763.jpg,1,group_01230
+Diabetic Retinopathy/DR766.jpg,1,group_01233
+Diabetic Retinopathy/DR768.jpg,1,group_01235
+Diabetic Retinopathy/DR769.jpg,1,group_01236
+Diabetic Retinopathy/DR771.jpg,1,group_01239
+Diabetic Retinopathy/DR784.jpg,1,group_01253
+Diabetic Retinopathy/DR785.jpg,1,group_01254
+Diabetic Retinopathy/DR786.jpg,1,group_01255
+Diabetic Retinopathy/DR801.jpg,1,group_01270
+Diabetic Retinopathy/DR806.jpg,1,group_01275
+Diabetic Retinopathy/DR824.jpg,1,group_01292
+Diabetic Retinopathy/DR829.jpg,1,group_01297
+Diabetic Retinopathy/DR842.jpg,1,group_01309
+Diabetic Retinopathy/DR848.jpg,1,group_01315
+Diabetic Retinopathy/DR854.jpg,1,group_01322
+Diabetic Retinopathy/DR858.jpg,1,group_01325
+Diabetic Retinopathy/DR866.jpg,1,group_01333
+Diabetic Retinopathy/DR878.jpg,1,group_01344
+Diabetic Retinopathy/DR879.jpg,1,group_01345
+Diabetic Retinopathy/DR880.jpg,1,group_01347
+Diabetic Retinopathy/DR886.jpg,1,group_01353
+Diabetic Retinopathy/DR902.jpg,1,group_01370
+Diabetic Retinopathy/DR909.jpg,1,group_01377
+Diabetic Retinopathy/DR910.jpg,1,group_01379
+Diabetic Retinopathy/DR911.jpg,1,group_01380
+Diabetic Retinopathy/DR913.jpg,1,group_01382
+Diabetic Retinopathy/DR928.jpg,1,group_01396
+Diabetic Retinopathy/DR941.jpg,1,group_01411
+Diabetic Retinopathy/DR944.jpg,1,group_01414
+Diabetic Retinopathy/DR945.jpg,1,group_01415
+Diabetic Retinopathy/DR948.jpg,1,group_01418
+Diabetic Retinopathy/DR950.jpg,1,group_01421
+Diabetic Retinopathy/DR955.jpg,1,group_01426
+Diabetic Retinopathy/DR958.jpg,1,group_01426
+Diabetic Retinopathy/DR964.jpg,1,group_01433
+Diabetic Retinopathy/DR970.jpg,1,group_01440
+Diabetic Retinopathy/DR972.jpg,1,group_01442
+Diabetic Retinopathy/DR975.jpg,1,group_01445
+Diabetic Retinopathy/DR990.jpg,1,group_01462
+Disc Edema/Disc Edema101.jpg,2,group_01474
+Disc Edema/Disc Edema116.jpg,2,group_01484
+Disc Edema/Disc Edema121.jpg,2,group_01490
+Disc Edema/Disc Edema16.jpg,2,group_01500
+Disc Edema/Disc Edema23.jpg,2,group_01506
+Disc Edema/Disc Edema38.jpg,2,group_01519
+Disc Edema/Disc Edema40.jpg,2,group_01521
+Disc Edema/Disc Edema47.jpg,2,group_01527
+Disc Edema/Disc Edema58.jpg,2,group_01537
+Disc Edema/Disc Edema59.jpg,2,group_01538
+Disc Edema/Disc Edema6.jpg,2,group_01539
+Disc Edema/Disc Edema64.jpg,2,group_01543
+Disc Edema/Disc Edema84.jpg,2,group_01559
+Disc Edema/Disc Edema89.jpg,2,group_01564
+Glaucoma/Glaucoma1001.jpg,3,group_01579
+Glaucoma/Glaucoma1007.jpg,3,group_01585
+Glaucoma/Glaucoma1008.jpg,3,group_01585
+Glaucoma/Glaucoma101.jpg,3,group_01586
+Glaucoma/Glaucoma1011.jpg,3,group_01587
+Glaucoma/Glaucoma1014.jpg,3,group_01587
+Glaucoma/Glaucoma1020.jpg,3,group_01594
+Glaucoma/Glaucoma1022.jpg,3,group_01595
+Glaucoma/Glaucoma1024.jpg,3,group_01595
+Glaucoma/Glaucoma1026.jpg,3,group_01594
+Glaucoma/Glaucoma1027.jpg,3,group_01596
+Glaucoma/Glaucoma1028.jpg,3,group_01595
+Glaucoma/Glaucoma1040.jpg,3,group_01604
+Glaucoma/Glaucoma1045.jpg,3,group_01607
+Glaucoma/Glaucoma106.jpg,3,group_01619
+Glaucoma/Glaucoma1061.jpg,3,group_01621
+Glaucoma/Glaucoma1068.jpg,3,group_01626
+Glaucoma/Glaucoma11.jpg,3,group_01650
+Glaucoma/Glaucoma1104.jpg,3,group_01655
+Glaucoma/Glaucoma1108.jpg,3,group_01657
+Glaucoma/Glaucoma1117.jpg,3,group_01663
+Glaucoma/Glaucoma1118.jpg,3,group_01663
+Glaucoma/Glaucoma1130.jpg,3,group_01673
+Glaucoma/Glaucoma1138.jpg,3,group_01679
+Glaucoma/Glaucoma1144.jpg,3,group_01681
+Glaucoma/Glaucoma1155.jpg,3,group_01688
+Glaucoma/Glaucoma1167.jpg,3,group_01696
+Glaucoma/Glaucoma1168.jpg,3,group_01697
+Glaucoma/Glaucoma1172.jpg,3,group_01702
+Glaucoma/Glaucoma1186.jpg,3,group_01711
+Glaucoma/Glaucoma1187.jpg,3,group_01712
+Glaucoma/Glaucoma1189.jpg,3,group_01714
+Glaucoma/Glaucoma1191.jpg,3,group_01716
+Glaucoma/Glaucoma12.jpg,3,group_01722
+Glaucoma/Glaucoma1204.jpg,3,group_01727
+Glaucoma/Glaucoma1212.jpg,3,group_01733
+Glaucoma/Glaucoma1216.jpg,3,group_01736
+Glaucoma/Glaucoma1217.jpg,3,group_01737
+Glaucoma/Glaucoma1222.jpg,3,group_01739
+Glaucoma/Glaucoma1233.jpg,3,group_01747
+Glaucoma/Glaucoma1249.jpg,3,group_01757
+Glaucoma/Glaucoma1261.jpg,3,group_01765
+Glaucoma/Glaucoma1262.jpg,3,group_01766
+Glaucoma/Glaucoma1267.jpg,3,group_01769
+Glaucoma/Glaucoma1277.jpg,3,group_01779
+Glaucoma/Glaucoma1281.jpg,3,group_01782
+Glaucoma/Glaucoma1285.jpg,3,group_01785
+Glaucoma/Glaucoma1286.jpg,3,group_01786
+Glaucoma/Glaucoma1287.jpg,3,group_01787
+Glaucoma/Glaucoma1291.jpg,3,group_01791
+Glaucoma/Glaucoma1303.jpg,3,group_01801
+Glaucoma/Glaucoma1310.jpg,3,group_01804
+Glaucoma/Glaucoma1313.jpg,3,group_01805
+Glaucoma/Glaucoma1321.jpg,3,group_01812
+Glaucoma/Glaucoma133.jpg,3,group_01816
+Glaucoma/Glaucoma1333.jpg,3,group_01819
+Glaucoma/Glaucoma1339.jpg,3,group_01824
+Glaucoma/Glaucoma1349.jpg,3,group_01833
+Glaucoma/Glaucoma141.jpg,3,group_01836
+Glaucoma/Glaucoma142.jpg,3,group_01837
+Glaucoma/Glaucoma147.jpg,3,group_01839
+Glaucoma/Glaucoma182.jpg,3,group_01862
+Glaucoma/Glaucoma186.jpg,3,group_01586
+Glaucoma/Glaucoma198.jpg,3,group_01877
+Glaucoma/Glaucoma214.jpg,3,group_01895
+Glaucoma/Glaucoma236.jpg,3,group_01915
+Glaucoma/Glaucoma237.jpg,3,group_01916
+Glaucoma/Glaucoma24.jpg,3,group_01919
+Glaucoma/Glaucoma247.jpg,3,group_01927
+Glaucoma/Glaucoma253.jpg,3,group_01934
+Glaucoma/Glaucoma254.jpg,3,group_01934
+Glaucoma/Glaucoma270.jpg,3,group_01946
+Glaucoma/Glaucoma271.jpg,3,group_01946
+Glaucoma/Glaucoma287.jpg,3,group_01953
+Glaucoma/Glaucoma295.jpg,3,group_01961
+Glaucoma/Glaucoma299.jpg,3,group_01964
+Glaucoma/Glaucoma301.jpg,3,group_01967
+Glaucoma/Glaucoma303.jpg,3,group_01969
+Glaucoma/Glaucoma327.jpg,3,group_01991
+Glaucoma/Glaucoma337.jpg,3,group_01999
+Glaucoma/Glaucoma340.jpg,3,group_02003
+Glaucoma/Glaucoma359.jpg,3,group_02013
+Glaucoma/Glaucoma367.jpg,3,group_02019
+Glaucoma/Glaucoma376.jpg,3,group_02026
+Glaucoma/Glaucoma38.jpg,3,group_02028
+Glaucoma/Glaucoma380.jpg,3,group_02029
+Glaucoma/Glaucoma388.jpg,3,group_02037
+Glaucoma/Glaucoma397.jpg,3,group_02042
+Glaucoma/Glaucoma407.jpg,3,group_02048
+Glaucoma/Glaucoma42.jpg,3,group_02060
+Glaucoma/Glaucoma44.jpg,3,group_02073
+Glaucoma/Glaucoma442.jpg,3,group_02075
+Glaucoma/Glaucoma443.jpg,3,group_02076
+Glaucoma/Glaucoma458.jpg,3,group_02086
+Glaucoma/Glaucoma459.jpg,3,group_02087
+Glaucoma/Glaucoma471.jpg,3,group_02099
+Glaucoma/Glaucoma475.jpg,3,group_02103
+Glaucoma/Glaucoma480.jpg,3,group_02109
+Glaucoma/Glaucoma493.jpg,3,group_02118
+Glaucoma/Glaucoma5.jpg,3,group_02122
+Glaucoma/Glaucoma501.jpg,3,group_02124
+Glaucoma/Glaucoma51.jpg,3,group_02132
+Glaucoma/Glaucoma510.jpg,3,group_02133
+Glaucoma/Glaucoma513.jpg,3,group_02136
+Glaucoma/Glaucoma525.jpg,3,group_02144
+Glaucoma/Glaucoma532.jpg,3,group_02149
+Glaucoma/Glaucoma541.jpg,3,group_02158
+Glaucoma/Glaucoma556.jpg,3,group_02171
+Glaucoma/Glaucoma558.jpg,3,group_02173
+Glaucoma/Glaucoma574.jpg,3,group_02184
+Glaucoma/Glaucoma595.jpg,3,group_02198
+Glaucoma/Glaucoma602.jpg,3,group_02205
+Glaucoma/Glaucoma608.jpg,3,group_02211
+Glaucoma/Glaucoma627.jpg,3,group_02226
+Glaucoma/Glaucoma630.jpg,3,group_02229
+Glaucoma/Glaucoma646.jpg,3,group_02239
+Glaucoma/Glaucoma653.jpg,3,group_02246
+Glaucoma/Glaucoma670.jpg,3,group_02260
+Glaucoma/Glaucoma672.jpg,3,group_02260
+Glaucoma/Glaucoma69.jpg,3,group_02276
+Glaucoma/Glaucoma705.jpg,3,group_02284
+Glaucoma/Glaucoma706.jpg,3,group_02284
+Glaucoma/Glaucoma741.jpg,3,group_02306
+Glaucoma/Glaucoma773.jpg,3,group_02326
+Glaucoma/Glaucoma777.jpg,3,group_02329
+Glaucoma/Glaucoma813.jpg,3,group_02352
+Glaucoma/Glaucoma819.jpg,3,group_02356
+Glaucoma/Glaucoma842.jpg,3,group_02372
+Glaucoma/Glaucoma843.jpg,3,group_02373
+Glaucoma/Glaucoma849.jpg,3,group_02377
+Glaucoma/Glaucoma853.jpg,3,group_02382
+Glaucoma/Glaucoma866.jpg,3,group_02394
+Glaucoma/Glaucoma893.jpg,3,group_02414
+Glaucoma/Glaucoma906.jpg,3,group_02427
+Glaucoma/Glaucoma909.jpg,3,group_02430
+Glaucoma/Glaucoma924.jpg,3,group_02445
+Glaucoma/Glaucoma938.jpg,3,group_02459
+Glaucoma/Glaucoma940.jpg,3,group_02462
+Glaucoma/Glaucoma950.jpg,3,group_02472
+Glaucoma/Glaucoma955.jpg,3,group_02476
+Glaucoma/Glaucoma958.jpg,3,group_02479
+Glaucoma/Glaucoma962.jpg,3,group_02483
+Glaucoma/Glaucoma963.jpg,3,group_02483
+Glaucoma/Glaucoma974.jpg,3,group_02491
+Glaucoma/Glaucoma98.jpg,3,group_02496
+Glaucoma/Glaucoma980.jpg,3,group_02497
+Glaucoma/Glaucoma982.jpg,3,group_02497
+Glaucoma/Glaucoma989.jpg,3,group_02504
+Healthy/Healthy1.jpg,4,group_02513
+Healthy/Healthy1014.jpg,4,group_02524
+Healthy/Healthy107.jpg,4,group_02536
+Healthy/Healthy133.jpg,4,group_02557
+Healthy/Healthy137.jpg,4,group_02557
+Healthy/Healthy139.jpg,4,group_02560
+Healthy/Healthy152.jpg,4,group_02575
+Healthy/Healthy157.jpg,4,group_02580
+Healthy/Healthy165.jpg,4,group_02589
+Healthy/Healthy168.jpg,4,group_02592
+Healthy/Healthy169.jpg,4,group_02593
+Healthy/Healthy171.jpg,4,group_02595
+Healthy/Healthy178.jpg,4,group_02601
+Healthy/Healthy182.jpg,4,group_02605
+Healthy/Healthy186.jpg,4,group_02609
+Healthy/Healthy189.jpg,4,group_02612
+Healthy/Healthy205.jpg,4,group_02623
+Healthy/Healthy209.jpg,4,group_02624
+Healthy/Healthy218.jpg,4,group_02630
+Healthy/Healthy220.jpg,4,group_02633
+Healthy/Healthy237.jpg,4,group_02644
+Healthy/Healthy24.jpg,4,group_02646
+Healthy/Healthy240.jpg,4,group_02644
+Healthy/Healthy241.jpg,4,group_02647
+Healthy/Healthy242.jpg,4,group_02648
+Healthy/Healthy253.jpg,4,group_02654
+Healthy/Healthy257.jpg,4,group_02655
+Healthy/Healthy286.jpg,4,group_02678
+Healthy/Healthy294.jpg,4,group_02683
+Healthy/Healthy3.jpg,4,group_02687
+Healthy/Healthy301.jpg,4,group_02690
+Healthy/Healthy306.jpg,4,group_02695
+Healthy/Healthy307.jpg,4,group_02696
+Healthy/Healthy32.jpg,4,group_02707
+Healthy/Healthy328.jpg,4,group_02714
+Healthy/Healthy340.jpg,4,group_02725
+Healthy/Healthy356.jpg,4,group_02737
+Healthy/Healthy360.jpg,4,group_02739
+Healthy/Healthy363.jpg,4,group_02741
+Healthy/Healthy366.jpg,4,group_02744
+Healthy/Healthy369.jpg,4,group_02744
+Healthy/Healthy375.jpg,4,group_02750
+Healthy/Healthy377.jpg,4,group_02750
+Healthy/Healthy383.jpg,4,group_02754
+Healthy/Healthy394.jpg,4,group_02765
+Healthy/Healthy406.jpg,4,group_02774
+Healthy/Healthy414.jpg,4,group_02779
+Healthy/Healthy415.jpg,4,group_02780
+Healthy/Healthy416.jpg,4,group_02781
+Healthy/Healthy417.jpg,4,group_02782
+Healthy/Healthy418.jpg,4,group_02783
+Healthy/Healthy420.jpg,4,group_02786
+Healthy/Healthy429.jpg,4,group_02795
+Healthy/Healthy432.jpg,4,group_02799
+Healthy/Healthy451.jpg,4,group_02813
+Healthy/Healthy452.jpg,4,group_02814
+Healthy/Healthy467.jpg,4,group_02825
+Healthy/Healthy470.jpg,4,group_02828
+Healthy/Healthy50.jpg,4,group_02854
+Healthy/Healthy505.jpg,4,group_02860
+Healthy/Healthy507.jpg,4,group_02862
+Healthy/Healthy509.jpg,4,group_02863
+Healthy/Healthy51.jpg,4,group_02864
+Healthy/Healthy514.jpg,4,group_02868
+Healthy/Healthy518.jpg,4,group_02872
+Healthy/Healthy531.jpg,4,group_02883
+Healthy/Healthy541.jpg,4,group_02893
+Healthy/Healthy552.jpg,4,group_02904
+Healthy/Healthy587.jpg,4,group_02934
+Healthy/Healthy592.jpg,4,group_02939
+Healthy/Healthy594.jpg,4,group_02941
+Healthy/Healthy598.jpg,4,group_02944
+Healthy/Healthy612.jpg,4,group_02957
+Healthy/Healthy644.jpg,4,group_02987
+Healthy/Healthy65.jpg,4,group_02993
+Healthy/Healthy653.jpg,4,group_02996
+Healthy/Healthy655.jpg,4,group_02998
+Healthy/Healthy656.jpg,4,group_02999
+Healthy/Healthy666.jpg,4,group_03006
+Healthy/Healthy673.jpg,4,group_03011
+Healthy/Healthy685.jpg,4,group_03022
+Healthy/Healthy686.jpg,4,group_03023
+Healthy/Healthy694.jpg,4,group_03032
+Healthy/Healthy711.jpg,4,group_03046
+Healthy/Healthy713.jpg,4,group_03048
+Healthy/Healthy732.jpg,4,group_03068
+Healthy/Healthy745.jpg,4,group_03080
+Healthy/Healthy751.jpg,4,group_03087
+Healthy/Healthy753.jpg,4,group_03089
+Healthy/Healthy772.jpg,4,group_03102
+Healthy/Healthy773.jpg,4,group_03102
+Healthy/Healthy793.jpg,4,group_03121
+Healthy/Healthy806.jpg,4,group_03133
+Healthy/Healthy809.jpg,4,group_03136
+Healthy/Healthy843.jpg,4,group_03166
+Healthy/Healthy844.jpg,4,group_03167
+Healthy/Healthy845.jpg,4,group_03168
+Healthy/Healthy846.jpg,4,group_03169
+Healthy/Healthy848.jpg,4,group_03171
+Healthy/Healthy855.jpg,4,group_03176
+Healthy/Healthy87.jpg,4,group_03186
+Healthy/Healthy873.jpg,4,group_03190
+Healthy/Healthy874.jpg,4,group_03190
+Healthy/Healthy876.jpg,4,group_03192
+Healthy/Healthy878.jpg,4,group_03192
+Healthy/Healthy886.jpg,4,group_03202
+Healthy/Healthy892.jpg,4,group_03206
+Healthy/Healthy894.jpg,4,group_03207
+Healthy/Healthy895.jpg,4,group_03206
+Healthy/Healthy898.jpg,4,group_03210
+Healthy/Healthy901.jpg,4,group_03210
+Healthy/Healthy902.jpg,4,group_03213
+Healthy/Healthy905.jpg,4,group_03215
+Healthy/Healthy911.jpg,4,group_03221
+Healthy/Healthy914.jpg,4,group_03224
+Healthy/Healthy948.jpg,4,group_03250
+Healthy/Healthy950.jpg,4,group_03253
+Healthy/Healthy951.jpg,4,group_03254
+Healthy/Healthy953.jpg,4,group_03256
+Healthy/Healthy96.jpg,4,group_03262
+Healthy/Healthy963.jpg,4,group_03266
+Healthy/Healthy966.jpg,4,group_03269
+Healthy/Healthy968.jpg,4,group_03269
+Healthy/Healthy974.jpg,4,group_03275
+Healthy/Healthy976.jpg,4,group_03277
+Healthy/Healthy978.jpg,4,group_03279
+Healthy/Healthy984.jpg,4,group_03285
+Healthy/Healthy985.jpg,4,group_03286
+Healthy/Healthy998.jpg,4,group_03295
+Macular Scar/Macular Scar1.jpg,5,group_03297
+Macular Scar/Macular Scar11.jpg,5,group_03305
+Macular Scar/Macular Scar125.jpg,5,group_03319
+Macular Scar/Macular Scar127.jpg,5,group_03321
+Macular Scar/Macular Scar134.jpg,5,group_03325
+Macular Scar/Macular Scar140.jpg,5,group_03329
+Macular Scar/Macular Scar143.jpg,5,group_03332
+Macular Scar/Macular Scar163.jpg,5,group_03349
+Macular Scar/Macular Scar184.jpg,5,group_03367
+Macular Scar/Macular Scar186.jpg,5,group_03369
+Macular Scar/Macular Scar194.jpg,5,group_03376
+Macular Scar/Macular Scar216.jpg,5,group_03391
+Macular Scar/Macular Scar227.jpg,5,group_03402
+Macular Scar/Macular Scar228.jpg,5,group_03403
+Macular Scar/Macular Scar257.jpg,5,group_03423
+Macular Scar/Macular Scar283.jpg,5,group_03445
+Macular Scar/Macular Scar289.jpg,5,group_03450
+Macular Scar/Macular Scar3.jpg,5,group_03457
+Macular Scar/Macular Scar304.jpg,5,group_03459
+Macular Scar/Macular Scar314.jpg,5,group_03467
+Macular Scar/Macular Scar322.jpg,5,group_03476
+Macular Scar/Macular Scar326.jpg,5,group_03478
+Macular Scar/Macular Scar33.jpg,5,group_03482
+Macular Scar/Macular Scar339.jpg,5,group_03488
+Macular Scar/Macular Scar346.jpg,5,group_03496
+Macular Scar/Macular Scar357.jpg,5,group_03505
+Macular Scar/Macular Scar36.jpg,5,group_03506
+Macular Scar/Macular Scar363.jpg,5,group_03510
+Macular Scar/Macular Scar368.jpg,5,group_03515
+Macular Scar/Macular Scar37.jpg,5,group_03517
+Macular Scar/Macular Scar370.jpg,5,group_03518
+Macular Scar/Macular Scar376.jpg,5,group_03521
+Macular Scar/Macular Scar398.jpg,5,group_03538
+Macular Scar/Macular Scar405.jpg,5,group_03545
+Macular Scar/Macular Scar406.jpg,5,group_03506
+Macular Scar/Macular Scar407.jpg,5,group_03546
+Macular Scar/Macular Scar408.jpg,5,group_03547
+Macular Scar/Macular Scar409.jpg,5,group_03548
+Macular Scar/Macular Scar41.jpg,5,group_03549
+Macular Scar/Macular Scar430.jpg,5,group_03567
+Macular Scar/Macular Scar441.jpg,5,group_03576
+Macular Scar/Macular Scar443.jpg,5,group_03578
+Macular Scar/Macular Scar46.jpg,5,group_03581
+Macular Scar/Macular Scar66.jpg,5,group_03595
+Macular Scar/Macular Scar67.jpg,5,group_03596
+Macular Scar/Macular Scar68.jpg,5,group_03597
+Macular Scar/Macular Scar84.jpg,5,group_03610
+Macular Scar/Macular Scar9.jpg,5,group_03305
+Macular Scar/Macular Scar95.jpg,5,group_03329
+Macular Scar/Macular Scar96.jpg,5,group_03618
+Myopia/Myopia121.jpg,6,group_03635
+Myopia/Myopia123.jpg,6,group_03636
+Myopia/Myopia126.jpg,6,group_03639
+Myopia/Myopia137.jpg,6,group_03643
+Myopia/Myopia138.jpg,6,group_03644
+Myopia/Myopia140.jpg,6,group_03645
+Myopia/Myopia203.jpg,6,group_03676
+Myopia/Myopia209.jpg,6,group_03679
+Myopia/Myopia212.jpg,6,group_03682
+Myopia/Myopia214.jpg,6,group_03684
+Myopia/Myopia215.jpg,6,group_03685
+Myopia/Myopia216.jpg,6,group_03686
+Myopia/Myopia239.jpg,6,group_03697
+Myopia/Myopia24.jpg,6,group_03698
+Myopia/Myopia243.jpg,6,group_03699
+Myopia/Myopia269.jpg,6,group_03713
+Myopia/Myopia274.jpg,6,group_03716
+Myopia/Myopia280.jpg,6,group_03723
+Myopia/Myopia297.jpg,6,group_03732
+Myopia/Myopia301.jpg,6,group_03737
+Myopia/Myopia311.jpg,6,group_03743
+Myopia/Myopia318.jpg,6,group_03748
+Myopia/Myopia322.jpg,6,group_03753
+Myopia/Myopia331.jpg,6,group_03760
+Myopia/Myopia344.jpg,6,group_03767
+Myopia/Myopia346.jpg,6,group_03769
+Myopia/Myopia351.jpg,6,group_03775
+Myopia/Myopia355.jpg,6,group_03777
+Myopia/Myopia365.jpg,6,group_03788
+Myopia/Myopia366.jpg,6,group_03789
+Myopia/Myopia367.jpg,6,group_03790
+Myopia/Myopia378.jpg,6,group_03797
+Myopia/Myopia379.jpg,6,group_03798
+Myopia/Myopia388.jpg,6,group_03807
+Myopia/Myopia394.jpg,6,group_03810
+Myopia/Myopia403.jpg,6,group_03820
+Myopia/Myopia405.jpg,6,group_03821
+Myopia/Myopia421.jpg,6,group_03832
+Myopia/Myopia434.jpg,6,group_03840
+Myopia/Myopia436.jpg,6,group_03842
+Myopia/Myopia440.jpg,6,group_03846
+Myopia/Myopia446.jpg,6,group_03850
+Myopia/Myopia451.jpg,6,group_03855
+Myopia/Myopia474.jpg,6,group_03867
+Myopia/Myopia48.jpg,6,group_03872
+Myopia/Myopia496.jpg,6,group_03886
+Myopia/Myopia85.jpg,6,group_03915
+Myopia/Myopia98.jpg,6,group_03923
+Pterygium/Pterygium10.jpg,7,group_03925
+Pterygium/Pterygium17.jpg,7,group_03932
+Pterygium/Pterygium6.jpg,7,group_03937
+Retinal Detachment/Retinal Detachment1.jpg,8,group_03941
+Retinal Detachment/Retinal Detachment123.jpg,8,group_03953
+Retinal Detachment/Retinal Detachment125.jpg,8,group_03955
+Retinal Detachment/Retinal Detachment15.jpg,8,group_03957
+Retinal Detachment/Retinal Detachment2.jpg,8,group_03962
+Retinal Detachment/Retinal Detachment20.jpg,8,group_03963
+Retinal Detachment/Retinal Detachment41.jpg,8,group_03985
+Retinal Detachment/Retinal Detachment61.jpg,8,group_04005
+Retinal Detachment/Retinal Detachment64.jpg,8,group_04008
+Retinal Detachment/Retinal Detachment70.jpg,8,group_04015
+Retinal Detachment/Retinal Detachment71.jpg,8,group_04016
+Retinal Detachment/Retinal Detachment73.jpg,8,group_04018
+Retinal Detachment/Retinal Detachment81.jpg,8,group_04026
+Retinal Detachment/Retinal Detachment83.jpg,8,group_04025
+Retinal Detachment/Retinal Detachment84.jpg,8,group_04026
+Retinal Detachment/Retinal Detachment85.jpg,8,group_04026
+Retinal Detachment/Retinal Detachment92.jpg,8,group_04033
+Retinal Detachment/Retinal Detachment98.jpg,8,group_04038
+Retinitis Pigmentosa/Retinitis Pigmentosa102.jpg,9,group_04044
+Retinitis Pigmentosa/Retinitis Pigmentosa103.jpg,9,group_04045
+Retinitis Pigmentosa/Retinitis Pigmentosa108.jpg,9,group_04050
+Retinitis Pigmentosa/Retinitis Pigmentosa110.jpg,9,group_04053
+Retinitis Pigmentosa/Retinitis Pigmentosa119.jpg,9,group_04062
+Retinitis Pigmentosa/Retinitis Pigmentosa127.jpg,9,group_04069
+Retinitis Pigmentosa/Retinitis Pigmentosa32.jpg,9,group_04102
+Retinitis Pigmentosa/Retinitis Pigmentosa43.jpg,9,group_04114
+Retinitis Pigmentosa/Retinitis Pigmentosa51.jpg,9,group_04122
+Retinitis Pigmentosa/Retinitis Pigmentosa61.jpg,9,group_04127
+Retinitis Pigmentosa/Retinitis Pigmentosa63.jpg,9,group_04129
+Retinitis Pigmentosa/Retinitis Pigmentosa74.jpg,9,group_04139
+Retinitis Pigmentosa/Retinitis Pigmentosa75.jpg,9,group_04140
+Retinitis Pigmentosa/Retinitis Pigmentosa79.jpg,9,group_04144
+Retinitis Pigmentosa/Retinitis Pigmentosa82.jpg,9,group_04148
+Retinitis Pigmentosa/Retinitis Pigmentosa83.jpg,9,group_04149
+Retinitis Pigmentosa/Retinitis Pigmentosa85.jpg,9,group_04151
+Retinitis Pigmentosa/Retinitis Pigmentosa86.jpg,9,group_04152
+Retinitis Pigmentosa/Retinitis Pigmentosa96.jpg,9,group_04161
+Retinitis Pigmentosa/Retinitis Pigmentosa97.jpg,9,group_04162

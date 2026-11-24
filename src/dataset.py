@@ -6,22 +6,19 @@ Output: one transformed image tensor, its label index, and its CSV path.
 Used by Steps 3, 5, 6, and 7.
 """
 
-from pathlib import Path
-
 from PIL import Image
 from torch.utils.data import Dataset
+
+from src.config import DATA_ROOT
 
 
 class EyeImageDataset(Dataset):
     """Read one eye image at a time from disk using a path stored in a CSV."""
 
-    def __init__(self, dataframe, transform=None, project_root=None):
+    def __init__(self, dataframe, transform=None):
         """Store the CSV rows and the transform; no images are loaded yet."""
         self.dataframe = dataframe.reset_index(drop=True)
         self.transform = transform
-        if project_root is None:
-            project_root = Path(__file__).resolve().parents[1]
-        self.project_root = Path(project_root)
 
     def __len__(self):
         """Return how many images are in this dataset."""
@@ -30,7 +27,8 @@ class EyeImageDataset(Dataset):
     def __getitem__(self, index):
         """Load and transform one image; return (image, label, path)."""
         row = self.dataframe.iloc[index]
-        image_path = self.project_root / row["path"]
+        # CSV paths are relative to the dataset root, so they work on Kaggle.
+        image_path = DATA_ROOT / row["path"]
 
         with Image.open(image_path) as image:
             image = image.convert("RGB")

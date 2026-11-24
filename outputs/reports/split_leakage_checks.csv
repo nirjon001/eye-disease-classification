@@ -1,0 +1,5 @@
+check,result,detail
+No file path appears in two splits,PASS,0 overlap(s)
+No MD5 hash appears in two splits,PASS,0 overlap(s)
+No group_id appears in two splits,PASS,0 overlap(s)
+No setting-A look-alike pair crosses splits,PASS,0 cross-split pair(s)

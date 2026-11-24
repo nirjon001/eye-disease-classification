@@ -278,7 +278,7 @@ Original Dataset/Diabetic Retinopathy/DR1133.jpg,Diabetic Retinopathy,1641c6594a
 Original Dataset/Diabetic Retinopathy/DR1134.jpg,Diabetic Retinopathy,b2bd1b11a9d2fd909a2b86e9cc08fe33,True,False,,False
 Original Dataset/Diabetic Retinopathy/DR1135.jpg,Diabetic Retinopathy,16941c48172ca24a2975a17e2b4a186b,False,True,label_conflict,True
 Original Dataset/Retinal Detachment/Retinal Detachment9.jpg,Retinal Detachment,16941c48172ca24a2975a17e2b4a186b,False,True,label_conflict,True
-Original Dataset/Diabetic Retinopathy/DR1136.jpg,Diabetic Retinopathy,ca3c5a4669496704b91a9bf2820c9545,True,False,,False
+Original Dataset/Diabetic Retinopathy/DR1136.jpg,Diabetic Retinopathy,ca3c5a4669496704b91a9bf2820c9545,False,True,lookalike_label_conflict,True
 Original Dataset/Diabetic Retinopathy/DR1137.jpg,Diabetic Retinopathy,160196dd2d7a5a1c1abff86486507b7f,False,True,label_conflict,True
 Original Dataset/Retinal Detachment/Retinal Detachment11.jpg,Retinal Detachment,160196dd2d7a5a1c1abff86486507b7f,False,True,label_conflict,True
 Original Dataset/Diabetic Retinopathy/DR1138.jpg,Diabetic Retinopathy,43f91fb7ffcc5a5149af344e3b50f715,True,False,,False
@@ -1471,7 +1471,7 @@ Original Dataset/Diabetic Retinopathy/DR807.jpg,Diabetic Retinopathy,f8889e0aacc
 Original Dataset/Glaucoma/Glaucoma810.jpg,Glaucoma,f8889e0aacc888ba2376679fe73c5989,False,True,label_conflict,True
 Original Dataset/Diabetic Retinopathy/DR808.jpg,Diabetic Retinopathy,4eba9186b2bb321a7b113486a3372497,True,False,,False
 Original Dataset/Diabetic Retinopathy/DR809.jpg,Diabetic Retinopathy,d2af6fc4c9c0833685768051963f9ade,True,False,,False
-Original Dataset/Diabetic Retinopathy/DR81.jpg,Diabetic Retinopathy,03d72cd62d4f019f2117c363f29b5cb9,True,False,,False
+Original Dataset/Diabetic Retinopathy/DR81.jpg,Diabetic Retinopathy,03d72cd62d4f019f2117c363f29b5cb9,False,True,lookalike_label_conflict,True
 Original Dataset/Diabetic Retinopathy/DR810.jpg,Diabetic Retinopathy,79032b713b348a1e941c716f5b7e7c9a,True,False,,False
 Original Dataset/Diabetic Retinopathy/DR811.jpg,Diabetic Retinopathy,ff1c745d7f7013bb53c090ba898c50b8,True,False,,False
 Original Dataset/Diabetic Retinopathy/DR812.jpg,Diabetic Retinopathy,b54e6b47fd13b65c27f9a4dd798e572b,True,False,,False
@@ -1823,9 +1823,9 @@ Original Dataset/Glaucoma/Glaucoma1013.jpg,Glaucoma,b92b478211affced0ece5958a9c2
 Original Dataset/Glaucoma/Glaucoma1014.jpg,Glaucoma,384918a4190ad78f33dcb733fbf7b2ee,True,False,,False
 Original Dataset/Glaucoma/Glaucoma1015.jpg,Glaucoma,773698a7a812e79cfecab0d8fdf1fca0,True,False,,False
 Original Dataset/Glaucoma/Glaucoma1016.jpg,Glaucoma,8834686f55698315de7c76822d61fd7e,True,False,,False
-Original Dataset/Glaucoma/Glaucoma1017.jpg,Glaucoma,014c1efe998f3a4e294d09f5296718f2,True,False,,False
+Original Dataset/Glaucoma/Glaucoma1017.jpg,Glaucoma,014c1efe998f3a4e294d09f5296718f2,False,True,lookalike_label_conflict,True
 Original Dataset/Glaucoma/Glaucoma1018.jpg,Glaucoma,955ebcd6caf562099eac9c2c148d39c4,True,False,,False
-Original Dataset/Glaucoma/Glaucoma1019.jpg,Glaucoma,b6c81c871e3b54d061bd9a53251c2f6d,True,False,,False
+Original Dataset/Glaucoma/Glaucoma1019.jpg,Glaucoma,b6c81c871e3b54d061bd9a53251c2f6d,False,True,lookalike_label_conflict,True
 Original Dataset/Glaucoma/Glaucoma102.jpg,Glaucoma,fd2fe59d98fa9085ceb7462a61b6f1fc,False,True,label_conflict,True
 Original Dataset/Healthy/Healthy321.jpg,Healthy,fd2fe59d98fa9085ceb7462a61b6f1fc,False,True,label_conflict,True
 Original Dataset/Glaucoma/Glaucoma1020.jpg,Glaucoma,d65b569bd35c86f68bba8e6ab083c5cc,True,False,,False
@@ -1940,7 +1940,7 @@ Original Dataset/Glaucoma/Glaucoma11.jpg,Glaucoma,f414fe044abc0cb65bfce48b016cc6
 Original Dataset/Glaucoma/Glaucoma110.jpg,Glaucoma,a88985265d5b55ae36f684d3c61ffef7,True,False,,False
 Original Dataset/Glaucoma/Glaucoma1100.jpg,Glaucoma,74dd8563fdb785de0a29c2989c4ee545,True,False,,False
 Original Dataset/Glaucoma/Glaucoma1101.jpg,Glaucoma,eabd101771a2266fa722ec6afdc44196,True,False,,False
-Original Dataset/Glaucoma/Glaucoma1102.jpg,Glaucoma,bb3307a7ae94427e4bbc2bdca0957272,True,False,,False
+Original Dataset/Glaucoma/Glaucoma1102.jpg,Glaucoma,bb3307a7ae94427e4bbc2bdca0957272,False,True,lookalike_label_conflict,True
 Original Dataset/Glaucoma/Glaucoma1103.jpg,Glaucoma,144260391ec24825c2e4abfc40cbce7d,True,False,,False
 Original Dataset/Glaucoma/Glaucoma1104.jpg,Glaucoma,5cebe200377733a8a027b85260f45fd8,True,False,,False
 Original Dataset/Glaucoma/Glaucoma1105.jpg,Glaucoma,f8ba4845d60175bc14b33e8a849e5ef9,True,False,,False
@@ -2334,7 +2334,7 @@ Original Dataset/Healthy/Healthy380.jpg,Healthy,52ca5b32ee4eaa900126b5a24677d1af
 Original Dataset/Glaucoma/Glaucoma155.jpg,Glaucoma,fe2c7b842b9a77d67976012199d71fcc,False,True,label_conflict,True
 Original Dataset/Healthy/Healthy381.jpg,Healthy,fe2c7b842b9a77d67976012199d71fcc,False,True,label_conflict,True
 Original Dataset/Macular Scar/Macular Scar210.jpg,Macular Scar,fe2c7b842b9a77d67976012199d71fcc,False,True,label_conflict,True
-Original Dataset/Glaucoma/Glaucoma156.jpg,Glaucoma,1a8a365be4b78e84f5f3f7cece24f796,True,False,,False
+Original Dataset/Glaucoma/Glaucoma156.jpg,Glaucoma,1a8a365be4b78e84f5f3f7cece24f796,False,True,lookalike_label_conflict,True
 Original Dataset/Glaucoma/Glaucoma157.jpg,Glaucoma,d84b51621e6bf3bc8b98df2bd7069544,True,False,,False
 Original Dataset/Glaucoma/Glaucoma158.jpg,Glaucoma,027cc6848d16d19c52891714db210f43,True,False,,False
 Original Dataset/Glaucoma/Glaucoma159.jpg,Glaucoma,a3226f20bbe48f0949e0246d4cb9ab87,False,True,label_conflict,True
@@ -2995,7 +2995,7 @@ Original Dataset/Glaucoma/Glaucoma633.jpg,Glaucoma,501c04d625eff80b8662e08719e9b
 Original Dataset/Healthy/Healthy767.jpg,Healthy,501c04d625eff80b8662e08719e9bcdd,False,True,label_conflict,True
 Original Dataset/Glaucoma/Glaucoma634.jpg,Glaucoma,0208dadeaf293ee4e7741a67907d52e6,True,False,,False
 Original Dataset/Glaucoma/Glaucoma635.jpg,Glaucoma,2ec3fb206f91082810255575c5583ec7,True,False,,False
-Original Dataset/Glaucoma/Glaucoma636.jpg,Glaucoma,626bf6f21f762e53352dc26217706c4e,True,False,,False
+Original Dataset/Glaucoma/Glaucoma636.jpg,Glaucoma,626bf6f21f762e53352dc26217706c4e,False,True,lookalike_label_conflict,True
 Original Dataset/Glaucoma/Glaucoma637.jpg,Glaucoma,b09ffaf11776d8a893a5474c0cbd87cb,True,False,,False
 Original Dataset/Glaucoma/Glaucoma638.jpg,Glaucoma,061e1be95c54cdc86802a046d61c2e84,True,False,,False
 Original Dataset/Glaucoma/Glaucoma639.jpg,Glaucoma,41218bac262b1d9f8f73f793e01b1677,True,False,,False
@@ -3106,7 +3106,7 @@ Original Dataset/Glaucoma/Glaucoma712.jpg,Glaucoma,df5015ed37f598f7b8cb24730f258
 Original Dataset/Glaucoma/Glaucoma713.jpg,Glaucoma,c27871fa78924de17acc3c1e53525e53,True,False,,False
 Original Dataset/Glaucoma/Glaucoma714.jpg,Glaucoma,872eab9e3560edf24facd9d6fbba8be0,False,True,label_conflict,True
 Original Dataset/Healthy/Healthy819.jpg,Healthy,872eab9e3560edf24facd9d6fbba8be0,False,True,label_conflict,True
-Original Dataset/Glaucoma/Glaucoma715.jpg,Glaucoma,8437bd022b6fcfce86babd22d1c02464,True,False,,False
+Original Dataset/Glaucoma/Glaucoma715.jpg,Glaucoma,8437bd022b6fcfce86babd22d1c02464,False,True,lookalike_label_conflict,True
 Original Dataset/Glaucoma/Glaucoma716.jpg,Glaucoma,edf1150a8ef9aa19a3ed9e516f71b529,False,True,label_conflict,True
 Original Dataset/Healthy/Healthy820.jpg,Healthy,edf1150a8ef9aa19a3ed9e516f71b529,False,True,label_conflict,True
 Original Dataset/Glaucoma/Glaucoma717.jpg,Glaucoma,6af90b3777566cf7a0f1903098e2a2df,False,True,label_conflict,True
@@ -3142,7 +3142,7 @@ Original Dataset/Glaucoma/Glaucoma735.jpg,Glaucoma,5d01c22640e14c04beeb585a1eb0c
 Original Dataset/Glaucoma/Glaucoma736.jpg,Glaucoma,1acdce6402ef3ba6addf472c8365db71,True,False,,False
 Original Dataset/Glaucoma/Glaucoma737.jpg,Glaucoma,a2d92bf79770a093c7845c6980ef0f57,False,True,label_conflict,True
 Original Dataset/Healthy/Healthy831.jpg,Healthy,a2d92bf79770a093c7845c6980ef0f57,False,True,label_conflict,True
-Original Dataset/Glaucoma/Glaucoma738.jpg,Glaucoma,fd0c94f5de997c9222d305eb9f3ff487,True,False,,False
+Original Dataset/Glaucoma/Glaucoma738.jpg,Glaucoma,fd0c94f5de997c9222d305eb9f3ff487,False,True,lookalike_label_conflict,True
 Original Dataset/Glaucoma/Glaucoma74.jpg,Glaucoma,7e095a33d2f215852aacb94535ae6976,False,True,label_conflict,True
 Original Dataset/Healthy/Healthy291.jpg,Healthy,7e095a33d2f215852aacb94535ae6976,False,True,label_conflict,True
 Original Dataset/Glaucoma/Glaucoma740.jpg,Glaucoma,5c563d14badafd152c781eec31f8a9eb,True,False,,False
@@ -3205,7 +3205,7 @@ Original Dataset/Glaucoma/Glaucoma782.jpg,Glaucoma,e22d1441888850a549519c9d38458
 Original Dataset/Glaucoma/Glaucoma783.jpg,Glaucoma,2143d49ef441245f5bd72d321a66b995,False,True,label_conflict,True
 Original Dataset/Healthy/Healthy861.jpg,Healthy,2143d49ef441245f5bd72d321a66b995,False,True,label_conflict,True
 Original Dataset/Glaucoma/Glaucoma784.jpg,Glaucoma,4153a43c7429c3b2d508fe9ba1b1c50b,True,False,,False
-Original Dataset/Glaucoma/Glaucoma785.jpg,Glaucoma,8c46b738a9be7424ab1172ff6c08f77e,True,False,,False
+Original Dataset/Glaucoma/Glaucoma785.jpg,Glaucoma,8c46b738a9be7424ab1172ff6c08f77e,False,True,lookalike_label_conflict,True
 Original Dataset/Glaucoma/Glaucoma786.jpg,Glaucoma,4cfd46a1333b23321eac51168b2f7f36,False,True,label_conflict,True
 Original Dataset/Healthy/Healthy865.jpg,Healthy,4cfd46a1333b23321eac51168b2f7f36,False,True,label_conflict,True
 Original Dataset/Glaucoma/Glaucoma787.jpg,Glaucoma,64e9612f5a150e2d688c83221e167c81,False,True,label_conflict,True
@@ -3329,7 +3329,7 @@ Original Dataset/Myopia/Myopia463.jpg,Myopia,04a84f6ebe32f08d517cca345f9d92ac,Fa
 Original Dataset/Glaucoma/Glaucoma871.jpg,Glaucoma,b42b9ca036d1b83c3306baf879f6fc16,True,False,,False
 Original Dataset/Glaucoma/Glaucoma872.jpg,Glaucoma,e3402a5730c99f215ae28eafcbebc204,True,False,,False
 Original Dataset/Glaucoma/Glaucoma873.jpg,Glaucoma,e63a02a023de2abb02e59c9d47b62f13,True,False,,False
-Original Dataset/Glaucoma/Glaucoma874.jpg,Glaucoma,41e0c68f9da13c511948055805cca38e,True,False,,False
+Original Dataset/Glaucoma/Glaucoma874.jpg,Glaucoma,41e0c68f9da13c511948055805cca38e,False,True,lookalike_label_conflict,True
 Original Dataset/Glaucoma/Glaucoma875.jpg,Glaucoma,b426cadca24a6a61bd14b901e3d691b7,True,False,,False
 Original Dataset/Glaucoma/Glaucoma876.jpg,Glaucoma,eab064cd1a6977cd2861dc278f08c153,True,False,,False
 Original Dataset/Glaucoma/Glaucoma877.jpg,Glaucoma,94bfea6d6db3183ccc063dbfcd38aa82,True,False,,False
@@ -3361,7 +3361,7 @@ Original Dataset/Glaucoma/Glaucoma894.jpg,Glaucoma,34ada85d46a695f1397fdc411d0af
 Original Dataset/Glaucoma/Glaucoma895.jpg,Glaucoma,2c3edf44135ae9bf716681a7e8ed49b9,True,False,,False
 Original Dataset/Glaucoma/Glaucoma896.jpg,Glaucoma,d4dd332bc28a4e0196b7a71320dffc2f,True,False,,False
 Original Dataset/Glaucoma/Glaucoma897.jpg,Glaucoma,572d4ffbf23a77713862b635c874947d,True,False,,False
-Original Dataset/Glaucoma/Glaucoma898.jpg,Glaucoma,5795dbb29aee4299e89680107d67c281,True,False,,False
+Original Dataset/Glaucoma/Glaucoma898.jpg,Glaucoma,5795dbb29aee4299e89680107d67c281,False,True,lookalike_label_conflict,True
 Original Dataset/Glaucoma/Glaucoma899.jpg,Glaucoma,ebd76a1f710d29b96e379ffb1cc550f4,True,False,,False
 Original Dataset/Glaucoma/Glaucoma9.jpg,Glaucoma,d4d0cfa8fe413d76179852dce87e8aef,True,False,,False
 Original Dataset/Glaucoma/Glaucoma90.jpg,Glaucoma,3d57a4a39971358db1fda6e2bfaf4cbc,False,True,label_conflict,True
@@ -3495,7 +3495,7 @@ Original Dataset/Healthy/Healthy1002.jpg,Healthy,36522aecd0df4393a8bc7457d70b855
 Original Dataset/Healthy/Healthy1004.jpg,Healthy,4fe4669d0d70c1602439428f0c19ff12,True,False,,False
 Original Dataset/Healthy/Healthy1005.jpg,Healthy,f62f5f5e2f08732968b1ebb8b8dd5c60,True,False,,False
 Original Dataset/Healthy/Healthy1006.jpg,Healthy,8b5d9718b615d272b70a054f130878d5,True,False,,False
-Original Dataset/Healthy/Healthy1007.jpg,Healthy,82a7e45753b95e0b043fc99cff9cd997,True,False,,False
+Original Dataset/Healthy/Healthy1007.jpg,Healthy,82a7e45753b95e0b043fc99cff9cd997,False,True,lookalike_label_conflict,True
 Original Dataset/Healthy/Healthy101.jpg,Healthy,c537db117f61e3e689d810858d2c36c7,True,False,,False
 Original Dataset/Healthy/Healthy1010.jpg,Healthy,c9aa9987e7996dca2bf6bebe00002d6b,True,False,,False
 Original Dataset/Healthy/Healthy1011.jpg,Healthy,01e3abdba6569c0b68721e04ee3030d2,True,False,,False
@@ -3750,7 +3750,7 @@ Original Dataset/Healthy/Healthy375.jpg,Healthy,43b92e643a074b95cafffc47840b8be9
 Original Dataset/Healthy/Healthy376.jpg,Healthy,ce1504ea5f5e477b7c9a1d7601e1cfa8,True,False,,False
 Original Dataset/Healthy/Healthy377.jpg,Healthy,80d272da40844dddb155f3c639ac32f0,True,False,,False
 Original Dataset/Healthy/Healthy378.jpg,Healthy,16d9badd559b2b098bfe6e8fcbf2db4d,True,False,,False
-Original Dataset/Healthy/Healthy379.jpg,Healthy,d5496e06b49f22754ae3110ab19f8899,True,False,,False
+Original Dataset/Healthy/Healthy379.jpg,Healthy,d5496e06b49f22754ae3110ab19f8899,False,True,lookalike_label_conflict,True
 Original Dataset/Healthy/Healthy38.jpg,Healthy,8398caeb149ce99c839719737c0a1d61,False,True,label_conflict,True
 Original Dataset/Macular Scar/Macular Scar30.jpg,Macular Scar,8398caeb149ce99c839719737c0a1d61,False,True,label_conflict,True
 Original Dataset/Healthy/Healthy382.jpg,Healthy,2675d87b951f2b2bf59e0660abcc7af2,True,False,,False
@@ -3776,7 +3776,7 @@ Original Dataset/Healthy/Healthy404.jpg,Healthy,53f9d2b710f5841fe91a4d8fc42773e6
 Original Dataset/Healthy/Healthy405.jpg,Healthy,773f2e774de4ce58479dbd35f8357106,True,False,,False
 Original Dataset/Healthy/Healthy406.jpg,Healthy,2fea5beb47cd859ad2efa14cec0c306d,True,False,,False
 Original Dataset/Healthy/Healthy408.jpg,Healthy,efadbfb693ed2ea4d84b7235f552eadc,True,False,,False
-Original Dataset/Healthy/Healthy41.jpg,Healthy,40d4b2d67be05de50a689a7a4923c5c2,True,False,,False
+Original Dataset/Healthy/Healthy41.jpg,Healthy,40d4b2d67be05de50a689a7a4923c5c2,False,True,lookalike_label_conflict,True
 Original Dataset/Healthy/Healthy410.jpg,Healthy,ab497ac2118d18dd73b89f938d7bf21c,True,False,,False
 Original Dataset/Healthy/Healthy412.jpg,Healthy,39a765e105ebf79ff5b1610f96ca1781,True,False,,False
 Original Dataset/Healthy/Healthy413.jpg,Healthy,d4b31747c06a7cd652d25e52a28c407e,True,False,,False
@@ -3890,7 +3890,7 @@ Original Dataset/Healthy/Healthy522.jpg,Healthy,03e967d13087ad5bbd0cd449fbf8b9ee
 Original Dataset/Healthy/Healthy524.jpg,Healthy,e832601bb621a51822cd733068340f5e,True,False,,False
 Original Dataset/Healthy/Healthy525.jpg,Healthy,a1faa84185b958265b5762b9a865c93f,True,False,,False
 Original Dataset/Healthy/Healthy526.jpg,Healthy,9a1ee0c24f8a171da49593bfd9244e18,True,False,,False
-Original Dataset/Healthy/Healthy528.jpg,Healthy,762e225b1d13a35d14fe6e6001897647,True,False,,False
+Original Dataset/Healthy/Healthy528.jpg,Healthy,762e225b1d13a35d14fe6e6001897647,False,True,lookalike_label_conflict,True
 Original Dataset/Healthy/Healthy53.jpg,Healthy,96a0abb90f6c10dde624571796d2f2ad,True,False,,False
 Original Dataset/Healthy/Healthy531.jpg,Healthy,9d025d18b112205c1a15b336daf4ff0d,True,False,,False
 Original Dataset/Healthy/Healthy532.jpg,Healthy,bfbc2fde05bcfadd4fb4180336a317cc,True,False,,False
@@ -3992,7 +3992,7 @@ Original Dataset/Healthy/Healthy636.jpg,Healthy,480743ae5bd348f913bf0cd552ffa367
 Original Dataset/Healthy/Healthy637.jpg,Healthy,2b4fad6d871fb063ce891c8ca6631bae,True,False,,False
 Original Dataset/Healthy/Healthy638.jpg,Healthy,2d0b8938dccb4fc3f1275969a76ac58e,True,False,,False
 Original Dataset/Healthy/Healthy64.jpg,Healthy,eac446b98ab231b6fcf7ffff91353777,True,False,,False
-Original Dataset/Healthy/Healthy640.jpg,Healthy,36f46ed9d7cb49245f7f15a5dab0b252,True,False,,False
+Original Dataset/Healthy/Healthy640.jpg,Healthy,36f46ed9d7cb49245f7f15a5dab0b252,False,True,lookalike_label_conflict,True
 Original Dataset/Healthy/Healthy641.jpg,Healthy,a4a58bce44f872a03b0c83505d779d37,True,False,,False
 Original Dataset/Healthy/Healthy642.jpg,Healthy,a8d23bd7357455d0b17bc49b3780064a,True,False,,False
 Original Dataset/Healthy/Healthy643.jpg,Healthy,fb7dc5aa329652299d0e813f32775670,True,False,,False
@@ -4194,7 +4194,7 @@ Original Dataset/Healthy/Healthy815.jpg,Healthy,83ce38517618dbfc8d86def8df6ada29
 Original Dataset/Healthy/Healthy816.jpg,Healthy,9cd154e0b5e7c7ed1f191e9c491a81e4,True,False,,False
 Original Dataset/Healthy/Healthy817.jpg,Healthy,cb80a4ac931d0464728444788d21b2f0,True,False,,False
 Original Dataset/Healthy/Healthy818.jpg,Healthy,307c1b8bd175063e4cbe5e956ed5b7ba,True,False,,False
-Original Dataset/Healthy/Healthy822.jpg,Healthy,6b44531cc6f564fb5ffb30b6038b73b5,True,False,,False
+Original Dataset/Healthy/Healthy822.jpg,Healthy,6b44531cc6f564fb5ffb30b6038b73b5,False,True,lookalike_label_conflict,True
 Original Dataset/Healthy/Healthy823.jpg,Healthy,2aa05b0a3269a550a8c350f661d83159,True,False,,False
 Original Dataset/Healthy/Healthy824.jpg,Healthy,ab04fb7d301e5d8a0ae4aa8e5b2cc42b,True,False,,False
 Original Dataset/Healthy/Healthy825.jpg,Healthy,7cdc21f46d822ff4cd402b0c36f33d44,True,False,,False
@@ -4231,7 +4231,7 @@ Original Dataset/Healthy/Healthy859.jpg,Healthy,9104121abe732ee55c143c27ba68890b
 Original Dataset/Healthy/Healthy86.jpg,Healthy,cabbd10181d96b3b6fa0eadc0a6f43e3,True,False,,False
 Original Dataset/Healthy/Healthy860.jpg,Healthy,9f355ea119ec03e3ce068b73fc488a10,True,False,,False
 Original Dataset/Healthy/Healthy862.jpg,Healthy,31d53a48fd3c5d1397e1f8d886c6c6f8,True,False,,False
-Original Dataset/Healthy/Healthy863.jpg,Healthy,26137a57bdf9b5bb7f259556456a3cb1,True,False,,False
+Original Dataset/Healthy/Healthy863.jpg,Healthy,26137a57bdf9b5bb7f259556456a3cb1,False,True,lookalike_label_conflict,True
 Original Dataset/Healthy/Healthy864.jpg,Healthy,31aa39fe606f72d8d2d85d873c290670,True,False,,False
 Original Dataset/Healthy/Healthy869.jpg,Healthy,d96393e067420a11ec3bce183ed550c3,True,False,,False
 Original Dataset/Healthy/Healthy87.jpg,Healthy,30c66745a718d50c9eb6e9ae8065af74,True,False,,False
@@ -4276,10 +4276,10 @@ Original Dataset/Healthy/Healthy902.jpg,Healthy,539b396bb4d6ba3dd39339b3d91ed9f0
 Original Dataset/Healthy/Healthy904.jpg,Healthy,46cca852ba2aab987972c569415bbf5a,True,False,,False
 Original Dataset/Healthy/Healthy905.jpg,Healthy,709a458102564202fababdb6e5ada6bb,True,False,,False
 Original Dataset/Healthy/Healthy906.jpg,Healthy,2e297c229ce08e53e56ce7f0eb1bf57e,True,False,,False
-Original Dataset/Healthy/Healthy907.jpg,Healthy,423de67e14be9a25fc3d6a6c4ece3d96,True,False,,False
+Original Dataset/Healthy/Healthy907.jpg,Healthy,423de67e14be9a25fc3d6a6c4ece3d96,False,True,lookalike_label_conflict,True
 Original Dataset/Healthy/Healthy909.jpg,Healthy,617d1bb19c1b5f584245f0a895bb77e0,True,False,,False
 Original Dataset/Healthy/Healthy91.jpg,Healthy,f62c3bcd87ba16c5c6dfadfccca6cf5a,True,False,,False
-Original Dataset/Healthy/Healthy910.jpg,Healthy,6c38b22133c3b5c94d3d0b9c400da65f,True,False,,False
+Original Dataset/Healthy/Healthy910.jpg,Healthy,6c38b22133c3b5c94d3d0b9c400da65f,False,True,lookalike_label_conflict,True
 Original Dataset/Healthy/Healthy911.jpg,Healthy,d75eb19c1cf679dd02887bf3abe5d098,True,False,,False
 Original Dataset/Healthy/Healthy912.jpg,Healthy,b9f37dde7c09c4ad7be92900f397d335,True,False,,False
 Original Dataset/Healthy/Healthy913.jpg,Healthy,88a096c12382ea99d7d6d3e99e44b969,True,False,,False
@@ -4303,10 +4303,10 @@ Original Dataset/Healthy/Healthy929.jpg,Healthy,f250bed2a72fac4801cde5223aaf0652
 Original Dataset/Healthy/Healthy93.jpg,Healthy,0bab5b56d7c9c95c727ff3aa4220fc55,True,False,,False
 Original Dataset/Healthy/Healthy930.jpg,Healthy,8161c096ca7e78399e748b4811393cf1,True,False,,False
 Original Dataset/Healthy/Healthy931.jpg,Healthy,d0785dbabbad79d3e959faf9dca4b207,True,False,,False
-Original Dataset/Healthy/Healthy932.jpg,Healthy,e03331544948a080ed31e234791067ac,True,False,,False
+Original Dataset/Healthy/Healthy932.jpg,Healthy,e03331544948a080ed31e234791067ac,False,True,lookalike_label_conflict,True
 Original Dataset/Healthy/Healthy933.jpg,Healthy,4db1ca30c0b4f8042f5fab71000ce39a,True,False,,False
 Original Dataset/Healthy/Healthy934.jpg,Healthy,5f91d16c638b381a6e8362b863851bd1,True,False,,False
-Original Dataset/Healthy/Healthy935.jpg,Healthy,1d5b539ba9226fe1f6b2a887ed0696af,True,False,,False
+Original Dataset/Healthy/Healthy935.jpg,Healthy,1d5b539ba9226fe1f6b2a887ed0696af,False,True,lookalike_label_conflict,True
 Original Dataset/Healthy/Healthy936.jpg,Healthy,b4bd826d2e6ae2af058818f10a5b2b43,True,False,,False
 Original Dataset/Healthy/Healthy937.jpg,Healthy,f497e225d0374e0c5706e18f48da5007,True,False,,False
 Original Dataset/Healthy/Healthy939.jpg,Healthy,e36186c19d8cc06a0b5ea148cc5f9495,True,False,,False
@@ -4483,7 +4483,7 @@ Original Dataset/Macular Scar/Macular Scar219.jpg,Macular Scar,9c538da4eaa368ec5
 Original Dataset/Macular Scar/Macular Scar22.jpg,Macular Scar,29d33c6ed0a37e819e4e120190940c21,True,False,,False
 Original Dataset/Macular Scar/Macular Scar220.jpg,Macular Scar,be29224bbb0a2cb3e2009c0314f6be84,True,False,,False
 Original Dataset/Macular Scar/Macular Scar221.jpg,Macular Scar,4b4da996452a66154103151d73a5de72,True,False,,False
-Original Dataset/Macular Scar/Macular Scar222.jpg,Macular Scar,4bc44e1d4de69c298561025479888b9b,True,False,,False
+Original Dataset/Macular Scar/Macular Scar222.jpg,Macular Scar,4bc44e1d4de69c298561025479888b9b,False,True,lookalike_label_conflict,True
 Original Dataset/Macular Scar/Macular Scar223.jpg,Macular Scar,c2372847b079bbc28ba4cd575ab51609,True,False,,False
 Original Dataset/Macular Scar/Macular Scar224.jpg,Macular Scar,c0796abde19dda043c5715ffc6ced2cc,True,False,,False
 Original Dataset/Macular Scar/Macular Scar225.jpg,Macular Scar,929424bb59040d04882e9d16b2e73835,True,False,,False
@@ -4586,7 +4586,7 @@ Original Dataset/Macular Scar/Macular Scar332.jpg,Macular Scar,c47850d472236283a
 Original Dataset/Macular Scar/Macular Scar333.jpg,Macular Scar,c574efdee8c95d873f1152b38590f3ad,False,True,label_conflict,True
 Original Dataset/Myopia/Myopia257.jpg,Myopia,c574efdee8c95d873f1152b38590f3ad,False,True,label_conflict,True
 Original Dataset/Macular Scar/Macular Scar334.jpg,Macular Scar,02fc2109cf2cb925e79561d5f2a0b31e,True,False,,False
-Original Dataset/Macular Scar/Macular Scar335.jpg,Macular Scar,7b5915fc808e417840568d58d9435879,True,False,,False
+Original Dataset/Macular Scar/Macular Scar335.jpg,Macular Scar,7b5915fc808e417840568d58d9435879,False,True,lookalike_label_conflict,True
 Original Dataset/Macular Scar/Macular Scar336.jpg,Macular Scar,0caf4aff2a253b36953a02f8c0c78bb0,False,True,label_conflict,True
 Original Dataset/Myopia/Myopia266.jpg,Myopia,0caf4aff2a253b36953a02f8c0c78bb0,False,True,label_conflict,True
 Original Dataset/Macular Scar/Macular Scar337.jpg,Macular Scar,8489d7e7f73c1eff042abda85e1a36bf,False,True,label_conflict,True
@@ -4601,8 +4601,8 @@ Original Dataset/Macular Scar/Macular Scar343.jpg,Macular Scar,94b4a67f923c3e719
 Original Dataset/Macular Scar/Macular Scar344.jpg,Macular Scar,5075ac4fb47ffce864af991f7d2f1703,True,False,,False
 Original Dataset/Macular Scar/Macular Scar345.jpg,Macular Scar,73233164a3045a781903c1cc9c368601,True,False,,False
 Original Dataset/Macular Scar/Macular Scar346.jpg,Macular Scar,0d18da455ddb331563036986631378c6,True,False,,False
-Original Dataset/Macular Scar/Macular Scar347.jpg,Macular Scar,62a0c2776054dad0c6e3560ca8a9e3cd,True,False,,False
-Original Dataset/Macular Scar/Macular Scar348.jpg,Macular Scar,f977dce562519c726cd3164b61eb4598,True,False,,False
+Original Dataset/Macular Scar/Macular Scar347.jpg,Macular Scar,62a0c2776054dad0c6e3560ca8a9e3cd,False,True,lookalike_label_conflict,True
+Original Dataset/Macular Scar/Macular Scar348.jpg,Macular Scar,f977dce562519c726cd3164b61eb4598,False,True,lookalike_label_conflict,True
 Original Dataset/Macular Scar/Macular Scar349.jpg,Macular Scar,42d112cf29517a89bc50107c6f7c478e,True,False,,False
 Original Dataset/Macular Scar/Macular Scar350.jpg,Macular Scar,3a3c0b6272ca48609a2d0a4cd105c1c6,True,False,,False
 Original Dataset/Macular Scar/Macular Scar351.jpg,Macular Scar,f3e78395fc6cc29e751ed2d49c8c0e63,True,False,,False
@@ -4612,7 +4612,7 @@ Original Dataset/Macular Scar/Macular Scar354.jpg,Macular Scar,bc2ac01e5a5eccfab
 Original Dataset/Macular Scar/Macular Scar355.jpg,Macular Scar,23fe9a73e97bc0fe2d563a4d7adebc8d,True,False,,False
 Original Dataset/Macular Scar/Macular Scar356.jpg,Macular Scar,53f86533b9290ddcc999bc30dff6037e,True,False,,False
 Original Dataset/Macular Scar/Macular Scar357.jpg,Macular Scar,9f6c28eea7b4ad937c6a777e5d4dc5c1,True,False,,False
-Original Dataset/Macular Scar/Macular Scar358.jpg,Macular Scar,8c995d40fdcb45a0013740462faee0be,True,False,,False
+Original Dataset/Macular Scar/Macular Scar358.jpg,Macular Scar,8c995d40fdcb45a0013740462faee0be,False,True,lookalike_label_conflict,True
 Original Dataset/Macular Scar/Macular Scar36.jpg,Macular Scar,150968983cff23f995cd57047531c6ed,True,False,,False
 Original Dataset/Macular Scar/Macular Scar360.jpg,Macular Scar,f8e5fa2f23978a513330da66db6aa5ca,True,False,,False
 Original Dataset/Macular Scar/Macular Scar361.jpg,Macular Scar,6c3297754a156522453e8abb61997022,True,False,,False
@@ -4647,8 +4647,8 @@ Original Dataset/Macular Scar/Macular Scar391.jpg,Macular Scar,5bae59d8d5302657e
 Original Dataset/Macular Scar/Macular Scar392.jpg,Macular Scar,c92b4c5390999ad945538c0ee67650ee,True,False,,False
 Original Dataset/Macular Scar/Macular Scar393.jpg,Macular Scar,25d778084d766c38ec5cb241fa9df886,True,False,,False
 Original Dataset/Macular Scar/Macular Scar394.jpg,Macular Scar,89c3f90906d0676ece7c9cb3748d7082,True,False,,False
-Original Dataset/Macular Scar/Macular Scar395.jpg,Macular Scar,6d6464ffe6ea8b9798545e34ca9bd51a,True,False,,False
-Original Dataset/Macular Scar/Macular Scar396.jpg,Macular Scar,cdd9f530fb246eb051cb45ab149e8364,True,False,,False
+Original Dataset/Macular Scar/Macular Scar395.jpg,Macular Scar,6d6464ffe6ea8b9798545e34ca9bd51a,False,True,lookalike_label_conflict,True
+Original Dataset/Macular Scar/Macular Scar396.jpg,Macular Scar,cdd9f530fb246eb051cb45ab149e8364,False,True,lookalike_label_conflict,True
 Original Dataset/Macular Scar/Macular Scar397.jpg,Macular Scar,6eefc4d976a932d2a9641a8f9a455c84,True,False,,False
 Original Dataset/Macular Scar/Macular Scar398.jpg,Macular Scar,2164e9f530edf410423e8a230d2ed27c,True,False,,False
 Original Dataset/Macular Scar/Macular Scar399.jpg,Macular Scar,2cd33fb69a670867f13408949d426c50,True,False,,False
@@ -4675,12 +4675,12 @@ Original Dataset/Macular Scar/Macular Scar418.jpg,Macular Scar,d71d48dd2c6ff2e05
 Original Dataset/Macular Scar/Macular Scar419.jpg,Macular Scar,b6af8cfe1543e327032d56d9da6f0af8,True,False,,False
 Original Dataset/Macular Scar/Macular Scar420.jpg,Macular Scar,0eee852471e932cf8802348f5a9f6678,True,False,,False
 Original Dataset/Macular Scar/Macular Scar421.jpg,Macular Scar,d664049d2c681161559f72478f322d81,True,False,,False
-Original Dataset/Macular Scar/Macular Scar422.jpg,Macular Scar,88fc9265ffe77f856f9066fbccf289c9,True,False,,False
+Original Dataset/Macular Scar/Macular Scar422.jpg,Macular Scar,88fc9265ffe77f856f9066fbccf289c9,False,True,lookalike_label_conflict,True
 Original Dataset/Macular Scar/Macular Scar423.jpg,Macular Scar,8c05e00a6a8c97ca704b7156671dd130,True,False,,False
 Original Dataset/Macular Scar/Macular Scar424.jpg,Macular Scar,860d2441c529758a5efd1a8d36d483c6,True,False,,False
 Original Dataset/Macular Scar/Macular Scar425.jpg,Macular Scar,69f4c5c87482fb6b331cce16d9039875,True,False,,False
 Original Dataset/Macular Scar/Macular Scar426.jpg,Macular Scar,c9e3fd40e8784ebdc7836ce6ad06de43,True,False,,False
-Original Dataset/Macular Scar/Macular Scar428.jpg,Macular Scar,c88b5b05374aba058e716b546413ff31,True,False,,False
+Original Dataset/Macular Scar/Macular Scar428.jpg,Macular Scar,c88b5b05374aba058e716b546413ff31,False,True,lookalike_label_conflict,True
 Original Dataset/Macular Scar/Macular Scar43.jpg,Macular Scar,1d29f52a7a64b4ddac900ea84add4bd2,True,False,,False
 Original Dataset/Macular Scar/Macular Scar430.jpg,Macular Scar,428fdc82eef5f68b75139b1e4e42ea05,True,False,,False
 Original Dataset/Macular Scar/Macular Scar431.jpg,Macular Scar,dccada44eb15d282c9a0ea8b1582fbaf,True,False,,False
@@ -4770,7 +4770,7 @@ Original Dataset/Myopia/Myopia134.jpg,Myopia,51eff97ed4d44eb2ff6de06d4647a52a,Tr
 Original Dataset/Myopia/Myopia136.jpg,Myopia,50e47f0286fb172804e82f3b91c43206,True,False,,False
 Original Dataset/Myopia/Myopia137.jpg,Myopia,221d1a929d64af8949f454fdff334b67,True,False,,False
 Original Dataset/Myopia/Myopia138.jpg,Myopia,8506a7d4c644d17855b244025691c407,True,False,,False
-Original Dataset/Myopia/Myopia14.jpg,Myopia,121f0df63c17a8bf5159b74fcf8694a1,True,False,,False
+Original Dataset/Myopia/Myopia14.jpg,Myopia,121f0df63c17a8bf5159b74fcf8694a1,False,True,lookalike_label_conflict,True
 Original Dataset/Myopia/Myopia140.jpg,Myopia,49fcb24e113e12120ae3f76aa7659b3b,True,False,,False
 Original Dataset/Myopia/Myopia141.jpg,Myopia,78f257f784c4625362da8facf565571a,True,False,,False
 Original Dataset/Myopia/Myopia142.jpg,Myopia,0e61f9d90eacb74f97f82818b535402f,True,False,,False
@@ -4788,7 +4788,7 @@ Original Dataset/Myopia/Myopia161.jpg,Myopia,920033b9be6b8d03e4604045503c52de,Tr
 Original Dataset/Myopia/Myopia162.jpg,Myopia,c9ee76516fde70866c7a942643b0d685,True,False,,False
 Original Dataset/Myopia/Myopia163.jpg,Myopia,7130a73dfc35b5c4dc53308a742d80a8,True,False,,False
 Original Dataset/Myopia/Myopia17.jpg,Myopia,54a27507dc2975babebad50e27c88f85,True,False,,False
-Original Dataset/Myopia/Myopia170.jpg,Myopia,a5d4d424f95aab159f4d7ac02a4ca8bc,True,False,,False
+Original Dataset/Myopia/Myopia170.jpg,Myopia,a5d4d424f95aab159f4d7ac02a4ca8bc,False,True,lookalike_label_conflict,True
 Original Dataset/Myopia/Myopia174.jpg,Myopia,78148fd2a4addd10f948e82e939846b6,True,False,,False
 Original Dataset/Myopia/Myopia178.jpg,Myopia,efd45a2c76c212f52640b886b44b9045,True,False,,False
 Original Dataset/Myopia/Myopia18.jpg,Myopia,34775eaae78d941a08af531fa7522a27,True,False,,False
@@ -4802,7 +4802,7 @@ Original Dataset/Myopia/Myopia191.jpg,Myopia,11c9ac642d8bbd922d24beda9995ba6f,Tr
 Original Dataset/Myopia/Myopia192.jpg,Myopia,5310607cd9d04feb70c2b93513648e10,True,False,,False
 Original Dataset/Myopia/Myopia193.jpg,Myopia,e60a52d2dc5519db67c90bed691abdfd,True,False,,False
 Original Dataset/Myopia/Myopia2.jpg,Myopia,ef6d306e572a2529fe0228f3233e71c7,True,False,,False
-Original Dataset/Myopia/Myopia200.jpg,Myopia,9371dced38aab7dc47d2b262a8c26ead,True,False,,False
+Original Dataset/Myopia/Myopia200.jpg,Myopia,9371dced38aab7dc47d2b262a8c26ead,False,True,lookalike_label_conflict,True
 Original Dataset/Myopia/Myopia201.jpg,Myopia,4265d866fb85326ff1f3a4146bb9e52e,True,False,,False
 Original Dataset/Myopia/Myopia202.jpg,Myopia,b8e0b42d2fcc20b5c5e060520551a5a8,True,False,,False
 Original Dataset/Myopia/Myopia203.jpg,Myopia,740180dd3ad22e9263f7b5d66a319171,True,False,,False
@@ -5185,7 +5185,7 @@ Original Dataset/Retinal Detachment/Retinal Detachment76.jpg,Retinal Detachment,
 Original Dataset/Retinal Detachment/Retinal Detachment77.jpg,Retinal Detachment,b04fed359f5002f3276c83f6d8b129ce,True,False,,False
 Original Dataset/Retinal Detachment/Retinal Detachment78.jpg,Retinal Detachment,8b911cf8a4cea89dff1c05a2f4c090f7,True,False,,False
 Original Dataset/Retinal Detachment/Retinal Detachment79.jpg,Retinal Detachment,6b2a5ffa51f174656a9480cd3648e87b,True,False,,False
-Original Dataset/Retinal Detachment/Retinal Detachment8.jpg,Retinal Detachment,8adb45afeb8ca8a6dad971876cf81566,True,False,,False
+Original Dataset/Retinal Detachment/Retinal Detachment8.jpg,Retinal Detachment,8adb45afeb8ca8a6dad971876cf81566,False,True,lookalike_label_conflict,True
 Original Dataset/Retinal Detachment/Retinal Detachment80.jpg,Retinal Detachment,c78c1f41a005746b54aaafe7848b424e,True,False,,False
 Original Dataset/Retinal Detachment/Retinal Detachment81.jpg,Retinal Detachment,493695daf1d457a879857dc31c926b49,True,False,,False
 Original Dataset/Retinal Detachment/Retinal Detachment82.jpg,Retinal Detachment,7376f6c40e2883b19c1a0d4cdb80691b,True,False,,False

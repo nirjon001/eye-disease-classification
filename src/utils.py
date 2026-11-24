@@ -55,6 +55,26 @@ def to_project_relative_string(path, project_root):
         return path.resolve().as_posix()
 
 
+def to_dataset_relative_string(path_string):
+    """
+    Turn a stored image path into a portable dataset-relative string.
+
+    Older CSVs stored "Original Dataset/Glaucoma/x.jpg" relative to the project
+    folder. Training on Kaggle needs just "Glaucoma/x.jpg" relative to the
+    dataset root. This function accepts either form and always returns forward
+    slashes, so Windows and Linux agree.
+    """
+    text = str(path_string).replace("\\", "/")
+    while text.startswith("./"):
+        text = text[2:]
+
+    prefix = "Original Dataset/"
+    if text.startswith(prefix):
+        text = text[len(prefix) :]
+
+    return text
+
+
 def save_dataframe(dataframe, output_path):
     """Write a pandas DataFrame to CSV and create its parent folder if needed."""
     output_path = Path(output_path)

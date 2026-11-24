@@ -1,0 +1,4 @@
+setting,pairs
+a) cosine >= 0.98,233
+b) pHash <= 4 AND cosine >= 0.95,1216
+c) pHash <= 4 AND pixel corr >= 0.95,6763
