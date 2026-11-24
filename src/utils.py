@@ -75,6 +75,23 @@ def to_dataset_relative_string(path_string):
     return text
 
 
+def to_kaggle_safe_relative_string(path_string):
+    """
+    Make a dataset-relative path safe for a Kaggle dataset upload.
+
+    Kaggle rejects `[` and `]` in names. Only the class folder needs changing;
+    the local dataset has `Central Serous Chorioretinopathy [Color Fundus]`,
+    which becomes `Central Serous Chorioretinopathy Color Fundus` on Kaggle.
+    """
+    text = to_dataset_relative_string(path_string)
+    parts = Path(text).parts
+    if len(parts) < 2:
+        raise RuntimeError(f"Expected '<class>/<file>' path, got: {path_string}")
+
+    safe_class = " ".join(parts[0].replace("[", "").replace("]", "").split())
+    return Path(safe_class, *parts[1:]).as_posix()
+
+
 def save_dataframe(dataframe, output_path):
     """Write a pandas DataFrame to CSV and create its parent folder if needed."""
     output_path = Path(output_path)

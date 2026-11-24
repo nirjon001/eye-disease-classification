@@ -8,6 +8,11 @@ Output: `kaggle_package/eye_data/<class>/<file name>` for every listed image,
 
 Only images named in the three split CSVs are copied. The original dataset is
 read only: nothing there is deleted or moved.
+
+Kaggle does not allow `[` or `]` in file/folder names, so the one class folder
+with square brackets is written with a safe name inside the package. The split
+CSVs inside the package are rewritten to use that same safe name; the repo CSVs
+and the original dataset are left unchanged.
 """
 
 import argparse
@@ -22,11 +27,12 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.config import DATA_ROOT, IMAGE_EXTENSIONS, PROJECT_ROOT, SPLITS_DIR  # noqa: E402
-from src.utils import to_dataset_relative_string  # noqa: E402
+from src.utils import to_dataset_relative_string, to_kaggle_safe_relative_string  # noqa: E402
 
 PACKAGE_DIR = PROJECT_ROOT / "kaggle_package"
 EYE_DATA_DIR = PACKAGE_DIR / "eye_data"
 SPLIT_NAMES = ["train", "val", "test"]
+
 
 
 def load_split_paths(max_images=None):
@@ -82,16 +88,8 @@ def prepare_destination():
 
 
 def destination_path(relative_path):
-    """
-    Build the package path from the CSV path.
-
-    The first part of a relative path is the class folder (read from the real
-    dataset layout, never hardcoded). The remaining parts are the file name.
-    """
-    parts = Path(relative_path).parts
-    if len(parts) < 2:
-        raise RuntimeError(f"Expected '<class>/<file>' in CSV, got: {relative_path}")
-    return EYE_DATA_DIR.joinpath(*parts)
+    """Build the Kaggle-safe package path from one CSV path."""
+    return EYE_DATA_DIR / to_kaggle_safe_relative_string(relative_path)
 
 
 def copy_images(relative_paths):
@@ -107,13 +105,22 @@ def copy_images(relative_paths):
             print(f"  copied {image_number}/{total} images")
 
 
-def copy_split_files():
-    """Copy the split CSVs into the package's `splits` folder."""
+def copy_split_files(max_images=None):
+    """
+    Write the split CSVs into the package's `splits` folder.
+
+    Their paths are rewritten to the Kaggle-safe class folder names so they
+    match the copied images. The repo CSVs stay unchanged.
+    """
     for split_name in SPLIT_NAMES:
         source = SPLITS_DIR / f"{split_name}.csv"
         destination = EYE_DATA_DIR / "splits" / f"{split_name}.csv"
-        shutil.copy2(source, destination)
-        print(f"  copied {destination}")
+        frame = pd.read_csv(source)
+        if max_images is not None:
+            frame = frame.head(max_images)
+        frame["path"] = frame["path"].map(to_kaggle_safe_relative_string)
+        frame.to_csv(destination, index=False)
+        print(f"  wrote {destination}")
 
 
 def zip_package():
@@ -151,8 +158,8 @@ def main():
     print("\nCopying images...")
     copy_images(relative_paths)
 
-    print("\nCopying split CSV files...")
-    copy_split_files()
+    print("\nWriting Kaggle-safe split CSV files...")
+    copy_split_files(args.max_images)
 
     print("\nZipping the package...")
     zip_path = zip_package()

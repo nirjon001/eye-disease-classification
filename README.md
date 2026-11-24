@@ -61,6 +61,10 @@ Split CSVs store paths relative to `EYE_DATA_ROOT` (for example
    `eye-data` dataset, choose **GPU T4/P100**, and turn **Internet: On**.
 3. Run the first cells to clone this repo and set the paths. Check the real dataset
    folder with `!ls /kaggle/input/eye-data` and change `EYE_DATA_ROOT` if needed.
+
+   The upload zip uses a Kaggle-safe class folder name
+   (`Central Serous Chorioretinopathy Color Fundus`, without square brackets).
+   The training code resolves this automatically, so no CSV edit is needed.
 4. Smoke-test first (no torch install needed):
 
    ```bash

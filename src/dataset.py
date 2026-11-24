@@ -10,6 +10,7 @@ from PIL import Image
 from torch.utils.data import Dataset
 
 from src.config import DATA_ROOT
+from src.utils import to_kaggle_safe_relative_string
 
 
 class EyeImageDataset(Dataset):
@@ -28,7 +29,10 @@ class EyeImageDataset(Dataset):
         """Load and transform one image; return (image, label, path)."""
         row = self.dataframe.iloc[index]
         # CSV paths are relative to the dataset root, so they work on Kaggle.
+        # Kaggle forbids square brackets, so its copy uses a cleaned folder name.
         image_path = DATA_ROOT / row["path"]
+        if not image_path.is_file():
+            image_path = DATA_ROOT / to_kaggle_safe_relative_string(row["path"])
 
         with Image.open(image_path) as image:
             image = image.convert("RGB")

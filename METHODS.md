@@ -42,6 +42,11 @@ into `kaggle_package/eye_data/splits/`, and zips the folder to
 `kaggle_package/eye_data.zip`. Class folder names come from the CSV paths, not
 from a hardcoded list. The original dataset is never modified.
 
+Kaggle rejects `[` and `]` in uploaded names, so the one affected class folder
+is written as `Central Serous Chorioretinopathy Color Fundus` in the package.
+The packaged split CSVs use the same safe name. `src/dataset.py` also tries this
+safe name automatically, so the repo CSVs still work unchanged on Kaggle.
+
 ## Portable paths for Kaggle
 
 `src/config.py` now defines `DATA_ROOT` (from `EYE_DATA_ROOT`, otherwise the
