@@ -31,15 +31,21 @@ from torch.utils.data import DataLoader
 from torchvision import transforms
 from torchvision.models import (
     AlexNet_Weights,
+    ConvNeXt_Tiny_Weights,
+    DenseNet121_Weights,
     EfficientNet_B0_Weights,
     MobileNet_V2_Weights,
     ResNet18_Weights,
     ResNet50_Weights,
+    Swin_T_Weights,
     alexnet,
+    convnext_tiny,
+    densenet121,
     efficientnet_b0,
     mobilenet_v2,
     resnet18,
     resnet50,
+    swin_t,
 )
 
 # Allow running this file directly from the project root.
@@ -52,6 +58,7 @@ from src.config import (  # noqa: E402
     COLOR_JITTER_CONTRAST,
     DEFAULT_MODEL,
     EARLY_STOPPING_PATIENCE,
+    EPOCHS,
     FIGURES_DIR,
     IMAGENET_MEAN,
     IMAGENET_STD,
@@ -110,6 +117,10 @@ def build_model(model_name, number_of_classes):
     frozen for a few warmup epochs so the new random head can learn first;
     after that we unfreeze the whole model.
     """
+    # "Swin Transformer" is called `swin_t` in torchvision. Accept both names.
+    if model_name == "swin_transformer":
+        model_name = "swin_t"
+
     if model_name == "simple_cnn":
         model = SimpleCNN(number_of_classes)
         return model, model.classifier, False
@@ -141,6 +152,25 @@ def build_model(model_name, number_of_classes):
         old_head = model.classifier[1]
         model.classifier[1] = nn.Linear(old_head.in_features, number_of_classes)
         return model, model.classifier[1], True
+
+    if model_name == "densenet121":
+        model = densenet121(weights=DenseNet121_Weights.IMAGENET1K_V1)
+        old_head = model.classifier
+        model.classifier = nn.Linear(old_head.in_features, number_of_classes)
+        return model, model.classifier, True
+
+    if model_name == "convnext_tiny":
+        model = convnext_tiny(weights=ConvNeXt_Tiny_Weights.IMAGENET1K_V1)
+        # ConvNeXt's classifier is Sequential(Flatten, LayerNorm2d, Linear).
+        old_head = model.classifier[2]
+        model.classifier[2] = nn.Linear(old_head.in_features, number_of_classes)
+        return model, model.classifier[2], True
+
+    if model_name == "swin_t":
+        model = swin_t(weights=Swin_T_Weights.IMAGENET1K_V1)
+        old_head = model.head
+        model.head = nn.Linear(old_head.in_features, number_of_classes)
+        return model, model.head, True
 
     raise ValueError(f"Unknown model: {model_name}")
 
@@ -312,7 +342,7 @@ def main():
     """Train one CNN model, saving progress after every epoch."""
     parser = argparse.ArgumentParser(description="Train a CNN on eye images.")
     parser.add_argument("--model", type=str, default=DEFAULT_MODEL, help="Model name.")
-    parser.add_argument("--epochs", type=int, default=20, help="Maximum epochs.")
+    parser.add_argument("--epochs", type=int, default=EPOCHS, help="Maximum epochs.")
     parser.add_argument("--batch-size", type=int, default=BATCH_SIZE, help="Batch size.")
     parser.add_argument("--num-workers", type=int, default=NUM_WORKERS, help="DataLoader workers.")
     parser.add_argument("--img-size", type=int, default=224, help="Square image size.")

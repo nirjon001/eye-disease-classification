@@ -21,7 +21,7 @@ A classification-only learning project on the Mendeley Eye Disease Image Dataset
 | 3 choice | `scripts/03_apply_setting_a.py` | Done — cosine >= 0.98 groups; 36 conflict images dropped |
 | 4 | `scripts/04_make_splits.py` | Done — 3,038 train / 656 val / 657 test; all leakage checks PASS |
 | 5 | — | Not started yet |
-| 6 | `scripts/06_train_cnn.py` | Ready — local `--quick` test passed; full runs on Kaggle |
+| 6 | `scripts/06_train_cnn.py` | Ready — 9 models, 50 epochs default; local `--quick` test passed |
 | 7–8 | — | Not started yet |
 | 9 | `scripts/09_prepare_kaggle_package.py` | Helper — packages only split images for Kaggle |
 
@@ -70,13 +70,25 @@ Split CSVs store paths relative to `EYE_DATA_ROOT` (for example
 5. Run one model at a time, then use **Save Version -> Save & Run All (Commit)**:
 
    ```bash
-   python scripts/06_train_cnn.py --model resnet18 --epochs 20
-   python scripts/06_train_cnn.py --model mobilenet_v2 --epochs 20
-   python scripts/06_train_cnn.py --model simple_cnn --epochs 20
-   python scripts/06_train_cnn.py --model alexnet --epochs 20
-   python scripts/06_train_cnn.py --model resnet50 --epochs 20
-   python scripts/06_train_cnn.py --model efficientnet_b0 --epochs 20
+   python scripts/06_train_cnn.py --model resnet18 --epochs 50
+   python scripts/06_train_cnn.py --model mobilenet_v2 --epochs 50
+   python scripts/06_train_cnn.py --model simple_cnn --epochs 50
+   python scripts/06_train_cnn.py --model alexnet --epochs 50
+   python scripts/06_train_cnn.py --model resnet50 --epochs 50
+   python scripts/06_train_cnn.py --model efficientnet_b0 --epochs 50
+   python scripts/06_train_cnn.py --model densenet121 --epochs 50
+   python scripts/06_train_cnn.py --model convnext_tiny --epochs 50
+   python scripts/06_train_cnn.py --model swin_t --epochs 50
    ```
+
+   `swin_transformer` also works as an alias for `swin_t`. The default is now
+   50 epochs; early stopping can still finish a model sooner.
+
+   The notebook also has one cell that runs all nine models in two groups:
+   **light** (`simple_cnn`, `mobilenet_v2`, `resnet18`, `efficientnet_b0`) and
+   **heavy** (`alexnet`, `densenet121`, `resnet50`, `convnext_tiny`, `swin_t`).
+   Both groups run sequentially, never in parallel. Set `RUN_HEAVY = False` for
+   a quicker first Commit, then set it to `True` for the heavy group.
 
    After every epoch the script prints train/val loss, top-1/3/5 accuracy, and
    macro F1, and saves the same values in `*_history.csv`. Weights, history

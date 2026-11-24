@@ -45,7 +45,7 @@ IMAGE_SIZE = 224
 CPU_IMAGE_SIZE = 160
 BATCH_SIZE = 32
 NUM_WORKERS = 2
-EPOCHS = 20
+EPOCHS = 50
 LEARNING_RATE_PRETRAINED = 1e-4
 LEARNING_RATE_SCRATCH = 1e-3
 WEIGHT_DECAY = 1e-4
@@ -118,5 +118,8 @@ SUPPORTED_MODELS = [
     "mobilenet_v2",
     "alexnet",
     "efficientnet_b0",
+    "densenet121",
+    "convnext_tiny",
+    "swin_t",  # torchvision name for Swin Transformer Tiny; "swin_transformer" is an alias.
 ]
 DEFAULT_MODEL = "resnet18"
