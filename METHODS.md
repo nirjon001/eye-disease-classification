@@ -33,8 +33,11 @@ The model was chosen by validation macro F1. `swin_t` won with validation macro 
 0.799; its test accuracy was 0.849, test macro F1 0.818, top-3 0.945, and top-5
 0.953. `resnet50` had slightly higher accuracy (0.857) but lower macro F1 (0.815).
 
-Extracted result files are in `outputs/reports/kaggle_run/` and
-`outputs/figures/kaggle_run/`. The original downloaded bundle is
+Extracted result files are organized by model:
+`outputs/reports/kaggle_run/<model>/` (result, test report, probabilities) and
+`outputs/figures/kaggle_run/<model>/` (curves, confusion matrix). Shared files
+such as `summary_table.csv` and `model_comparison.png` stay at the top level of
+those folders. The original downloaded bundle is
 `notebooks/results_bundle_seed42.zip`.
 
 ## Kaggle training batches

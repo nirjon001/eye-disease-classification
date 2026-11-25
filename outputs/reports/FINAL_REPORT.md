@@ -199,8 +199,8 @@ Per-class test report for `swin_t`:
 | **Macro average** | **0.844** | **0.882** | **0.818** | **657** |
 | Weighted average | 0.925 | 0.849 | 0.883 | 657 |
 
-![Swin-T confusion matrix](../figures/kaggle_run/swin_t_confusion_matrix.png)
-![Swin-T training curves](../figures/kaggle_run/swin_t_curves.png)
+![Swin-T confusion matrix](../figures/kaggle_run/swin_t/confusion_matrix.png)
+![Swin-T training curves](../figures/kaggle_run/swin_t/curves.png)
 
 ### 4.3 Confusions
 
@@ -244,8 +244,10 @@ The bundle contains probabilities, labels, per-class reports, result JSON files,
 curves, confusion matrices, the comparison table, and the exact train split used.
 The extracted local copies are in:
 
-- `outputs/reports/kaggle_run/`
-- `outputs/figures/kaggle_run/`
+- `outputs/reports/kaggle_run/` — one folder per model, with result JSON,
+  test report, and probability files
+- `outputs/figures/kaggle_run/` — one folder per model, with `curves.png` and
+  `confusion_matrix.png`; shared images stay at the top level
 
 ---
 
