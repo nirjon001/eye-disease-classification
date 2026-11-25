@@ -38,7 +38,7 @@ two Commits.
 
 `scripts/09_prepare_kaggle_package.py` copies only the images listed in the
 three split CSVs into `kaggle_package/eye_data/<class>/`, copies the split CSVs
-into `kaggle_package/eye_data/splits/`, and zips the folder to
+and `label_mapping.csv` into `kaggle_package/eye_data/splits/`, and zips the folder to
 `kaggle_package/eye_data.zip`. Class folder names come from the CSV paths, not
 from a hardcoded list. The original dataset is never modified.
 

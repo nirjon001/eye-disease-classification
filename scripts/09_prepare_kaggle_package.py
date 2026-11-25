@@ -1,9 +1,10 @@
 """
 Step 9 (helper): build a portable Kaggle image package.
 
-Input:  `train.csv`, `val.csv`, `test.csv` and the images in `DATA_ROOT`.
+Input:  `train.csv`, `val.csv`, `test.csv`, `label_mapping.csv`, and images in `DATA_ROOT`.
 Output: `kaggle_package/eye_data/<class>/<file name>` for every listed image,
         `kaggle_package/eye_data/splits/{train,val,test}.csv`,
+        `kaggle_package/eye_data/splits/label_mapping.csv`,
         `kaggle_package/eye_data.zip`.
 
 Only images named in the three split CSVs are copied. The original dataset is
@@ -32,6 +33,7 @@ from src.utils import to_dataset_relative_string, to_kaggle_safe_relative_string
 PACKAGE_DIR = PROJECT_ROOT / "kaggle_package"
 EYE_DATA_DIR = PACKAGE_DIR / "eye_data"
 SPLIT_NAMES = ["train", "val", "test"]
+EXTRA_SPLIT_FILES = ["label_mapping.csv"]
 
 
 
@@ -107,18 +109,21 @@ def copy_images(relative_paths):
 
 def copy_split_files(max_images=None):
     """
-    Write the split CSVs into the package's `splits` folder.
+    Write the split CSVs and the label mapping into the package's `splits` folder.
 
-    Their paths are rewritten to the Kaggle-safe class folder names so they
-    match the copied images. The repo CSVs stay unchanged.
+    Image paths are rewritten to the Kaggle-safe class folder names so they
+    match the copied images. Files without a `path` column are copied as-is.
+    The repo CSVs stay unchanged.
     """
-    for split_name in SPLIT_NAMES:
-        source = SPLITS_DIR / f"{split_name}.csv"
-        destination = EYE_DATA_DIR / "splits" / f"{split_name}.csv"
+    file_names = [f"{name}.csv" for name in SPLIT_NAMES] + EXTRA_SPLIT_FILES
+    for file_name in file_names:
+        source = SPLITS_DIR / file_name
+        destination = EYE_DATA_DIR / "splits" / file_name
         frame = pd.read_csv(source)
-        if max_images is not None:
+        if max_images is not None and "path" in frame.columns:
             frame = frame.head(max_images)
-        frame["path"] = frame["path"].map(to_kaggle_safe_relative_string)
+        if "path" in frame.columns:
+            frame["path"] = frame["path"].map(to_kaggle_safe_relative_string)
         frame.to_csv(destination, index=False)
         print(f"  wrote {destination}")
 
