@@ -1,0 +1,17 @@
+{
+ "model": "mobilenet_v2",
+ "params": 2236682,
+ "epochs": 50,
+ "best_epoch": 27,
+ "best_val_f1": 0.7557646266656565,
+ "best_val_acc": 0.7698170731707317,
+ "sec_per_epoch": 8.513529815673827,
+ "train_images": 3038,
+ "val_images": 656,
+ "class_weights": true,
+ "seed": 42,
+ "test_acc": 0.7823439878234398,
+ "test_top3": 0.9452054794520548,
+ "test_top5": 0.9726027397260274,
+ "test_f1": 0.7929255089935235
+}

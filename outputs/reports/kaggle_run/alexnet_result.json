@@ -1,0 +1,17 @@
+{
+ "model": "alexnet",
+ "params": 57044810,
+ "epochs": 50,
+ "best_epoch": 43,
+ "best_val_f1": 0.7188212223684852,
+ "best_val_acc": 0.7301829268292683,
+ "sec_per_epoch": 7.604717283248902,
+ "train_images": 3038,
+ "val_images": 656,
+ "class_weights": true,
+ "seed": 42,
+ "test_acc": 0.7336377473363774,
+ "test_top3": 0.9178082191780822,
+ "test_top5": 0.9452054794520548,
+ "test_f1": 0.7326937585650544
+}

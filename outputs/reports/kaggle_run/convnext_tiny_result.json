@@ -1,0 +1,17 @@
+{
+ "model": "convnext_tiny",
+ "params": 27827818,
+ "epochs": 50,
+ "best_epoch": 15,
+ "best_val_f1": 0.7744410960093515,
+ "best_val_acc": 0.8353658536585366,
+ "sec_per_epoch": 20.527734522819518,
+ "train_images": 3038,
+ "val_images": 656,
+ "class_weights": true,
+ "seed": 42,
+ "test_acc": 0.7640791476407914,
+ "test_top3": 0.9467275494672754,
+ "test_top5": 0.958904109589041,
+ "test_f1": 0.778974446551297
+}

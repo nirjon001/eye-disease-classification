@@ -1,0 +1,75 @@
+{
+ "CSCR": {
+  "precision": 0.9,
+  "recall": 0.9,
+  "f1-score": 0.9,
+  "support": 10.0
+ },
+ "Diabetic Retinopathy": {
+  "precision": 0.9848484848484849,
+  "recall": 0.8904109589041096,
+  "f1-score": 0.935251798561151,
+  "support": 219.0
+ },
+ "Disc Edema": {
+  "precision": 1.0,
+  "recall": 0.9523809523809523,
+  "f1-score": 0.975609756097561,
+  "support": 21.0
+ },
+ "Glaucoma": {
+  "precision": 0.8778625954198473,
+  "recall": 0.782312925170068,
+  "f1-score": 0.8273381294964028,
+  "support": 147.0
+ },
+ "Healthy": {
+  "precision": 0.9252336448598131,
+  "recall": 0.825,
+  "f1-score": 0.8722466960352423,
+  "support": 120.0
+ },
+ "Macular Scar": {
+  "precision": 0.8490566037735849,
+  "recall": 0.8181818181818182,
+  "f1-score": 0.8333333333333334,
+  "support": 55.0
+ },
+ "Myopia": {
+  "precision": 0.8571428571428571,
+  "recall": 0.875,
+  "f1-score": 0.865979381443299,
+  "support": 48.0
+ },
+ "Pterygium": {
+  "precision": 0.05084745762711865,
+  "recall": 1.0,
+  "f1-score": 0.0967741935483871,
+  "support": 3.0
+ },
+ "Retinal Detachment": {
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1-score": 1.0,
+  "support": 16.0
+ },
+ "Retinitis Pigmentosa": {
+  "precision": 1.0,
+  "recall": 0.7777777777777778,
+  "f1-score": 0.875,
+  "support": 18.0
+ },
+ "accuracy": 0.8493150684931506,
+ "macro avg": {
+  "precision": 0.8444991643671707,
+  "recall": 0.8821064432414726,
+  "f1-score": 0.8181533288515377,
+  "support": 657.0
+ },
+ "weighted avg": {
+  "precision": 0.9250367881506834,
+  "recall": 0.8493150684931506,
+  "f1-score": 0.882856809050834,
+  "support": 657.0
+ }
+}

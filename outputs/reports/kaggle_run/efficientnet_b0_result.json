@@ -1,0 +1,17 @@
+{
+ "model": "efficientnet_b0",
+ "params": 4020358,
+ "epochs": 50,
+ "best_epoch": 34,
+ "best_val_f1": 0.7357377461940746,
+ "best_val_acc": 0.7347560975609756,
+ "sec_per_epoch": 10.752452554702758,
+ "train_images": 3038,
+ "val_images": 656,
+ "class_weights": true,
+ "seed": 42,
+ "test_acc": 0.7290715372907154,
+ "test_top3": 0.9421613394216134,
+ "test_top5": 0.9634703196347032,
+ "test_f1": 0.7733796027283875
+}

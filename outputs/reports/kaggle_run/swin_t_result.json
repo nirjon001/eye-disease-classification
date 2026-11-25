@@ -1,0 +1,17 @@
+{
+ "model": "swin_t",
+ "params": 27527044,
+ "epochs": 50,
+ "best_epoch": 32,
+ "best_val_f1": 0.7994502167506272,
+ "best_val_acc": 0.8628048780487805,
+ "sec_per_epoch": 22.98772895336151,
+ "train_images": 3038,
+ "val_images": 656,
+ "class_weights": true,
+ "seed": 42,
+ "test_acc": 0.8493150684931506,
+ "test_top3": 0.9452054794520548,
+ "test_top5": 0.9528158295281582,
+ "test_f1": 0.8181533288515377
+}

@@ -1,0 +1,17 @@
+{
+ "model": "simple_cnn",
+ "params": 391466,
+ "epochs": 50,
+ "best_epoch": 36,
+ "best_val_f1": 0.3745745797352313,
+ "best_val_acc": 0.36585365853658536,
+ "sec_per_epoch": 7.205939455032349,
+ "train_images": 3038,
+ "val_images": 656,
+ "class_weights": true,
+ "seed": 42,
+ "test_acc": 0.3713850837138508,
+ "test_top3": 0.76103500761035,
+ "test_top5": 0.923896499238965,
+ "test_f1": 0.4111100118769224
+}

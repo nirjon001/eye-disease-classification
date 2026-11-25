@@ -1,0 +1,17 @@
+{
+ "model": "resnet50",
+ "params": 23528522,
+ "epochs": 50,
+ "best_epoch": 19,
+ "best_val_f1": 0.7669728939405283,
+ "best_val_acc": 0.823170731707317,
+ "sec_per_epoch": 13.567961649894714,
+ "train_images": 3038,
+ "val_images": 656,
+ "class_weights": true,
+ "seed": 42,
+ "test_acc": 0.8569254185692542,
+ "test_top3": 0.9467275494672754,
+ "test_top5": 0.9634703196347032,
+ "test_f1": 0.8150349774741527
+}
