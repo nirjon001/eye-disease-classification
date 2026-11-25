@@ -21,10 +21,21 @@ classification project. It is updated as the scripts are completed.
 | 2 | `scripts/02_find_exact_duplicates.py` | MD5 hash of file bytes; same hash means identical file; report cross-class hash conflicts and mark extra copies to drop | `outputs/reports/exact_duplicates.csv`, `data/splits/dedup_flags.csv` | Done — 470 duplicate groups (464 label conflicts, 6 same-class), 948 images marked drop=True |
 | 3 | `scripts/03_find_lookalikes.py` | Method A: perceptual hash (pHash) with Hamming distance ≤ 8. Method B: frozen pretrained ResNet18 embeddings with cosine similarity ≥ 0.95. Build groups with connected components/union-find | `outputs/reports/lookalike_pairs.csv`, `data/splits/groups.csv` | Done — final choice is setting A (cosine ≥ 0.98); active groups now from `groups_strict_a.csv` |
 | 4 | `scripts/04_make_splits.py` | Remove duplicates/conflicts, then use group-aware splitting (70/15/15) with class-balanced candidate selection and seed 42; run four leakage checks | `train.csv`, `val.csv`, `test.csv` | Done — 3,038/656/657, all 4 leakage checks PASS |
-| 5 | `scripts/05_train_classical_ml.py` | Cache frozen ResNet18 features (512 values/image), train RBF SVM and Random Forest with balanced class weights | models + reports | Planned |
-| 6 | `scripts/06_train_cnn.py` | Fine-tune nine models (simple_cnn, resnet18, resnet50, mobilenet_v2, alexnet, efficientnet_b0, densenet121, convnext_tiny, swin_t) with weighted loss, optional warm-up, early stopping, train-only augmentation, CUDA mixed precision, and per-epoch saving. Default 50 epochs | best `.pth` + history plots | Script ready; local `--quick` test passed. History has train/val loss, top-1/3/5 accuracy, and macro F1 |
-| 7 | `scripts/07_evaluate.py` | Load best weights, evaluate once on test: accuracy, macro F1, classification report, confusion matrix, wrong-prediction grid | final test report | Planned |
-| 8 | `scripts/08_compare_models.py` | Collect all model results into one table and make a comparison bar chart | `model_comparison.csv` | Planned |
+| 5 | full Kaggle notebook | Cache frozen ResNet18 features (512 values/image), train RBF SVM and Random Forest with balanced class weights | SVM/RF test scores | Done in `notebooks/eyediseaseclassification1 (2).ipynb`; standalone `05_...` script not written |
+| 6 | `scripts/06_train_cnn.py` | Fine-tune nine models (simple_cnn, resnet18, resnet50, mobilenet_v2, alexnet, efficientnet_b0, densenet121, convnext_tiny, swin_t) with weighted loss, optional warm-up, early stopping, train-only augmentation, CUDA mixed precision, and per-epoch saving. Default 50 epochs | best `.pth` + history plots | Done on Kaggle — 9 models, 50 epochs, no failures. Weights remain in Kaggle Output |
+| 7 | full Kaggle notebook | Evaluate once on test: accuracy, macro F1, top-1/3/5, classification report, confusion matrix | per-model test reports and matrices | Done in the same notebook; final test set touched once |
+| 8 | full Kaggle notebook | Collect all model results into one table and make a comparison bar chart | `summary_table.csv`, `model_comparison.png` | Done in the same notebook |
+
+## Final result
+
+The full Kaggle run is summarized in `outputs/reports/FINAL_REPORT.md`.
+The model was chosen by validation macro F1. `swin_t` won with validation macro F1
+0.799; its test accuracy was 0.849, test macro F1 0.818, top-3 0.945, and top-5
+0.953. `resnet50` had slightly higher accuracy (0.857) but lower macro F1 (0.815).
+
+Extracted result files are in `outputs/reports/kaggle_run/` and
+`outputs/figures/kaggle_run/`. The original downloaded bundle is
+`notebooks/results_bundle_seed42.zip`.
 
 ## Kaggle training batches
 
